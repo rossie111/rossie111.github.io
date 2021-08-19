@@ -12,21 +12,19 @@ body {
 	font-family: 'Syne Mono', monospace;
 	border-style: dashed;
 	margin: 5%;
-	padding: 5% 7%
+	padding: 5% 7%;
+	font-size: 140%;
 }
 
-@media screen and (max-width: 480px){ 
-	body{
-		border-style:  dashed;
+@media only screen and (max-width: 480px){ 
+	#artist-statement{
+		font-size: 210%;
 	}
 }
 
-@media screen and (max-width: 360px){
-	h1{
-		margin-left: -.5rem;
-}
-	#exercises{
-		margin-left: -1.1rem; 
+@media only screen and (max-width: 360px){
+	#artist-statement{
+		font-size: 222%;
 	}
 }
 

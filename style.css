@@ -30,7 +30,7 @@ h1 {
   font-size: 4em;
 }
 img {
-  height: 300px;
+  /*height: 300px;*/
 }
 .cardholder {
   margin-top: 150px;
@@ -38,7 +38,7 @@ img {
 }
 .card {
   width: 300px;
-  height: 300px;
+  /*height: 300px;*/
   background-color: transparent;
           transform: rotateY(50deg);
   box-shadow: -6px 5px 13px 2px rgba(0, 0, 0, 0.25);
@@ -47,7 +47,7 @@ img {
 }
 .card:hover {
   width: 300px;
-  height: 300px;
+  /*height: 300px;*/
   background-color: transparent;
           transform: rotateY(0deg);
   box-shadow: 0px 0px 36px 2px rgba(0, 0, 0, 0.25);
@@ -67,6 +67,8 @@ p.desc:hover {
 
 
 /* End CSS Gallery Code*/
+
+
 
 
 @media only screen and (max-width: 480px){ 

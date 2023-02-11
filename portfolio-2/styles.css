@@ -21,7 +21,7 @@ img,object,embed {
 body {
     max-width: 1050px;
     margin: 0 auto;
-    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-family: 'Syne Mono', monospace;
     font-size: 100%;
     line-height: 1.4em;
     background: #1a1818;
@@ -36,7 +36,7 @@ p {
 }
 
 h1 {
-    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
+    font-family: 'Syne Mono', monospace;
     font-size: 4.5em;
     font-weight: bold;
     letter-spacing: 0.05em;
@@ -51,7 +51,7 @@ h1 small {
     font-weight: normal;
     font-size: 0.5em;
     letter-spacing: normal;
-    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-family: 'Syne Mono', monospace;
 }
 
 #timeline {

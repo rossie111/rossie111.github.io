@@ -1,4 +1,5 @@
 /* eslint-disable */
+console.log('Hello!')
 
 var config = Zooming.config(),
 TRANSITION_DURATION_DEFAULT = config.transitionDuration,

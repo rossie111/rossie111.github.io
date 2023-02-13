@@ -315,26 +315,26 @@
     }  
 
     // Get the modal 5
-    var modalFour = document.getElementById('myModal-04');
+    var modalFive = document.getElementById('myModal-05');
 
     // Get the image and insert it inside the modal - use its "alt" text as a caption
-    var imgFour = document.getElementById('myImg04');
-    var modalImgFour = document.getElementById("img04");
-    var captionTextFour = document.getElementById("caption04");
-    imgFour.onclick = function(){
-        modalFour.style.display = "block";
-        modalImgFour.src = this.src;
-        modalImgFour.alt = this.alt;
-        captionTextFour.innerHTML = this.alt;
+    var imgFive = document.getElementById('myImg05');
+    var modalImgFive = document.getElementById("img05");
+    var captionTextFive = document.getElementById("caption05");
+    imgFive.onclick = function(){
+        modalFive.style.display = "block";
+        modalImgFive.src = this.src;
+        modalImgFive.alt = this.alt;
+        captionTextFive.innerHTML = this.alt;
     }
 
 
     // When the user clicks on <span> (x), close the modal
-    modalFour.onclick = function() {
-        img04.className += " out";
+    modalFive.onclick = function() {
+        img05.className += " out";
         setTimeout(function() {
-           modalFour.style.display = "none";
-           img04.className = "modal-content";
+           modalFive.style.display = "none";
+           img05.className = "modal-content";
          }, 400);
         
     }

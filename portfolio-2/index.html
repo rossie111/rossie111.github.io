@@ -37,12 +37,12 @@
             </div>
             <div class="item">
                 <!-- Image Zoom HTML -->
-                <img id="myImg" src="../assets/rossie_world_website_003.jpg" alt="">
+                <img id="myImg03" src="../assets/rossie_world_website_003.jpg" alt="">
                 
                 <!-- The Modal -->
-                <div id="myModal" class="modal">
+                <div id="myModal-03" class="modal">
                     <img class="modal-content" id="img03">
-                    <div id="caption"></div>
+                    <div id="caption03"></div>
                 </div>
             </div>
             <div class="item">
@@ -260,6 +260,31 @@
         setTimeout(function() {
            modalTwo.style.display = "none";
            img02.className = "modal-content";
+         }, 400);
+        
+    }
+
+    // Get the modal 3
+    var modalThree = document.getElementById('myModal-03');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var imgThree = document.getElementById('myImg03');
+    var modalImgThree = document.getElementById("img03");
+    var captionTextThree = document.getElementById("caption03");
+    imgThree.onclick = function(){
+        modalThree.style.display = "block";
+        modalImgThree.src = this.src;
+        modalImgThree.alt = this.alt;
+        captionTextThree.innerHTML = this.alt;
+    }
+
+
+    // When the user clicks on <span> (x), close the modal
+    modalThree.onclick = function() {
+        img03.className += " out";
+        setTimeout(function() {
+           modalThree.style.display = "none";
+           img03.className = "modal-content";
          }, 400);
         
      }  

@@ -110,12 +110,12 @@
             </div>
             <div class="item">
                 <!-- Image Zoom HTML -->
-                <img id="myImg" src="../assets/rossie_world_website_010.jpg" alt="">
+                <img id="myImg010" src="../assets/rossie_world_website_010.jpg" alt="">
                 
                 <!-- The Modal -->
-                <div id="myModal-" class="modal">
+                <div id="myModal-010" class="modal">
                     <img class="modal-content" id="img010">
-                    <div id="caption"></div>
+                    <div id="caption010"></div>
                 </div>
             </div>
             <div class="item">
@@ -440,26 +440,26 @@
     }
 
     // Get the modal 10
-    var modalSeven = document.getElementById('myModal-07');
+    var modalTen = document.getElementById('myModal-010');
 
     // Get the image and insert it inside the modal - use its "alt" text as a caption
-    var imgSeven = document.getElementById('myImg07');
-    var modalImgSeven = document.getElementById("img07");
-    var captionTextSeven = document.getElementById("caption07");
-    imgSeven.onclick = function(){
-        modalSeven.style.display = "block";
-        modalImgSeven.src = this.src;
-        modalImgSeven.alt = this.alt;
-        captionTextSeven.innerHTML = this.alt;
+    var imgTen = document.getElementById('myImg010');
+    var modalImgTen = document.getElementById("img010");
+    var captionTextTen = document.getElementById("caption010");
+    imgTen.onclick = function(){
+        modalTen.style.display = "block";
+        modalImgTen.src = this.src;
+        modalImgTen.alt = this.alt;
+        captionTextTen.innerHTML = this.alt;
     }
 
 
     // When the user clicks on <span> (x), close the modal
-    modalSeven.onclick = function() {
-        img07.className += " out";
+    modalTen.onclick = function() {
+        img010.className += " out";
         setTimeout(function() {
-           modalSeven.style.display = "none";
-           img07.className = "modal-content";
+           modalTen.style.display = "none";
+           img010.className = "modal-content";
          }, 400);
         
     }

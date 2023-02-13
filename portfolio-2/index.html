@@ -17,12 +17,12 @@
         <div id="timeline" data-columns>
             <div class="item">
                 <!-- Image Zoom HTML -->
-                <img id="myImg" src="../assets/rossie_world_website_001.jpg" alt="">
+                <img id="myImg01" src="../assets/rossie_world_website_001.jpg" alt="">
                 
                 <!-- The Modal -->
-                <div id="myModal" class="modal">
+                <div id="myModal-01" class="modal">
                     <img class="modal-content" id="img01">
-                    <div id="caption"></div>
+                    <div id="caption01"></div>
                 </div>
             </div>
             <div class="item">
@@ -58,13 +58,13 @@
             <div class="item">
                 <!-- Image Zoom HTML -->
                 <video width="100%" controls autoplay muted loop>
-                    <source id="myImg" src="../assets/rossie_world_website_005.mp4" type="video/mp4" />
+                    <source id="myImg05" src="../assets/rossie_world_website_005.mp4" type="video/mp4" />
                 </video>
 
                 <!-- The Modal -->
-                <div id="myModal" class="modal">
+                <div id="myModal-05" class="modal">
                     <img class="modal-content" id="img05">
-                    <div id="caption"></div>
+                    <div id="caption05"></div>
                 </div>
             </div>
             <div class="item">
@@ -72,7 +72,7 @@
                 <img id="myImg" src="../assets/rossie_world_website_006.mp4" alt="">
                 
                 <!-- The Modal -->
-                <div id="myModal" class="modal">
+                <div id="myModal-" class="modal">
                     <img class="modal-content" id="img06">
                     <div id="caption"></div>
                 </div>
@@ -82,7 +82,7 @@
                 <img id="myImg" src="../assets/rossie_world_website_007.jpg" alt="">
                 
                 <!-- The Modal -->
-                <div id="myModal" class="modal">
+                <div id="myModal-" class="modal">
                     <img class="modal-content" id="img07">
                     <div id="caption"></div>
                 </div>
@@ -93,7 +93,7 @@
                 <img id="myImg" src="../assets/rossie_world_website_008.jpg" alt="">
                 
                 <!-- The Modal -->
-                <div id="myModal" class="modal">
+                <div id="myModal-" class="modal">
                     <img class="modal-content" id="img08">
                     <div id="caption"></div>
                 </div>
@@ -103,7 +103,7 @@
                 <img id="myImg" src="../assets/rossie_world_website_009.jpg" alt="">
                 
                 <!-- The Modal -->
-                <div id="myModal" class="modal">
+                <div id="myModal-" class="modal">
                     <img class="modal-content" id="img09">
                     <div id="caption"></div>
                 </div>
@@ -113,7 +113,7 @@
                 <img id="myImg" src="../assets/rossie_world_website_010.jpg" alt="">
                 
                 <!-- The Modal -->
-                <div id="myModal" class="modal">
+                <div id="myModal-" class="modal">
                     <img class="modal-content" id="img010">
                     <div id="caption"></div>
                 </div>
@@ -123,7 +123,7 @@
                 <img id="myImg" src="../assets/rossie_world_website_011.jpg" alt="">
                 
                 <!-- The Modal -->
-                <div id="myModal" class="modal">
+                <div id="myModal-" class="modal">
                     <img class="modal-content" id="img011">
                     <div id="caption"></div>
                 </div>
@@ -133,7 +133,7 @@
                 <img id="myImg" src="../assets/rossie_world_website_012.jpg" alt="">
                 
                 <!-- The Modal -->
-                <div id="myModal" class="modal">
+                <div id="myModal-" class="modal">
                     <img class="modal-content" id="img012">
                     <div id="caption"></div>
                 </div>
@@ -143,7 +143,7 @@
                 <img id="myImg" src="../assets/rossie_world_website_013.mp4" alt="">
                 
                 <!-- The Modal -->
-                <div id="myModal" class="modal">
+                <div id="myModal-" class="modal">
                     <img class="modal-content" id="img013">
                     <div id="caption"></div>
                 </div>
@@ -153,7 +153,7 @@
                 <img id="myImg" src="../assets/rossie_world_website_014.jpg" alt="">
                 
                 <!-- The Modal -->
-                <div id="myModal" class="modal">
+                <div id="myModal-" class="modal">
                     <img class="modal-content" id="img014">
                     <div id="caption"></div>
                 </div>
@@ -167,7 +167,7 @@
                 " src="../assets/rossie_world_website_015.jpg" alt="">
                 
                 <!-- The Modal -->
-                <div id="myModal" class="modal">
+                <div id="myModal-" class="modal">
                     <img class="modal-content" id="img015">
                     <div id="caption"></div>
                 </div>
@@ -177,7 +177,7 @@
                 <img id="myImg" src="../assets/rossie_world_website_016.jpg" alt="">
                 
                 <!-- The Modal -->
-                <div id="myModal" class="modal">
+                <div id="myModal-" class="modal">
                     <img class="modal-content" id="img016">
                     <div id="caption"></div>
                 </div>
@@ -187,7 +187,7 @@
                 <img id="myImg" src="../assets/rossie_world_website_017.jpg" alt="">
                 
                 <!-- The Modal -->
-                <div id="myModal" class="modal">
+                <div id="myModal-" class="modal">
                     <img class="modal-content" id="img017">
                     <div id="caption"></div>
                 </div>
@@ -197,7 +197,7 @@
                 <img id="myImg" src="../assets/rossie_world_website_018.jpg" alt="">
                 
                 <!-- The Modal -->
-                <div id="myModal" class="modal">
+                <div id="myModal-" class="modal">
                     <img class="modal-content" id="img018">
                     <div id="caption"></div>
                 </div>
@@ -215,17 +215,17 @@
 
         <script>
     // Get the modal
-    var modal = document.getElementById('myModal');
+    var modalOne = document.getElementById('myModal-01');
      
     // Get the image and insert it inside the modal - use its "alt" text as a caption
-    var img = document.getElementById('myImg');
-    var modalImg = document.getElementById("img01");
-    var captionText = document.getElementById("caption");
-    img.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        modalImg.alt = this.alt;
-        captionText.innerHTML = this.alt;
+    var imgOne = document.getElementById('myImg01');
+    var modalImgOne = document.getElementById("img01");
+    var captionTextOne = document.getElementById("caption01");
+    imgOne.onclick = function(){
+        modalOne.style.display = "block";
+        modalImgOne.src = this.src;
+        modalImgOne.alt = this.alt;
+        captionTextOne.innerHTML = this.alt;
     }
      
      
@@ -312,8 +312,32 @@
            img04.className = "modal-content";
          }, 400);
         
-     }  
+    }  
 
+    // Get the modal 5
+    var modalFour = document.getElementById('myModal-04');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var imgFour = document.getElementById('myImg04');
+    var modalImgFour = document.getElementById("img04");
+    var captionTextFour = document.getElementById("caption04");
+    imgFour.onclick = function(){
+        modalFour.style.display = "block";
+        modalImgFour.src = this.src;
+        modalImgFour.alt = this.alt;
+        captionTextFour.innerHTML = this.alt;
+    }
+
+
+    // When the user clicks on <span> (x), close the modal
+    modalFour.onclick = function() {
+        img04.className += " out";
+        setTimeout(function() {
+           modalFour.style.display = "none";
+           img04.className = "modal-content";
+         }, 400);
+        
+    }
 
     </script>
 

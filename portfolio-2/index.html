@@ -79,12 +79,12 @@
             </div>
             <div class="item">
                 <!-- Image Zoom HTML -->
-                <img id="myImg" src="../assets/rossie_world_website_007.jpg" alt="">
+                <img id="myImg07" src="../assets/rossie_world_website_007.jpg" alt="">
                 
                 <!-- The Modal -->
-                <div id="myModal-" class="modal">
+                <div id="myModal-07" class="modal">
                     <img class="modal-content" id="img07">
-                    <div id="caption"></div>
+                    <div id="caption07"></div>
                 </div>
             </div>
             <div class="item">
@@ -314,7 +314,7 @@
         
     }  
 
-    // Get the modal 5
+    // Get the modal 5 -- maybe delete becasue it's a video and zoom function is not working?
     var modalFive = document.getElementById('myModal-05');
 
     // Get the image and insert it inside the modal - use its "alt" text as a caption
@@ -339,7 +339,7 @@
         
     }
 
-    // Get the modal 6
+    // Get the modal 6 -- maybe delete becasue it's a video and zoom function is not working?
     var modalSix = document.getElementById('myModal-06');
 
     // Get the image and insert it inside the modal - use its "alt" text as a caption
@@ -360,6 +360,31 @@
         setTimeout(function() {
            modalSix.style.display = "none";
            img06.className = "modal-content";
+         }, 400);
+        
+    }
+
+    // Get the modal 7
+    var modalSeven = document.getElementById('myModal-07');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var imgSeven = document.getElementById('myImg07');
+    var modalImgSeven = document.getElementById("img07");
+    var captionTextSeven = document.getElementById("caption07");
+    imgSeven.onclick = function(){
+        modalSeven.style.display = "block";
+        modalImgSeven.src = this.src;
+        modalImgSeven.alt = this.alt;
+        captionTextSeven.innerHTML = this.alt;
+    }
+
+
+    // When the user clicks on <span> (x), close the modal
+    modalSeven.onclick = function() {
+        img07.className += " out";
+        setTimeout(function() {
+           modalSeven.style.display = "none";
+           img07.className = "modal-content";
          }, 400);
         
     }

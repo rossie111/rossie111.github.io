@@ -163,13 +163,12 @@
             </div>
             <div class="item">
                 <p>artist statement</p>
-                <!-- Image Zoom HTML --><img id="myImg
-                " src="../assets/rossie_world_website_015.jpg" alt="">
+                <!-- Image Zoom HTML --><img id="myImg015" src="../assets/rossie_world_website_015.jpg" alt="">
                 
                 <!-- The Modal -->
-                <div id="myModal-" class="modal">
+                <div id="myModal-015" class="modal">
                     <img class="modal-content" id="img015">
-                    <div id="caption"></div>
+                    <div id="caption015"></div>
                 </div>
             </div>
             <div class="item">
@@ -565,26 +564,26 @@
     }
 
     // Get the modal 15
-    var modalSeven = document.getElementById('myModal-07');
+    var modalFifteen = document.getElementById('myModal-015');
 
     // Get the image and insert it inside the modal - use its "alt" text as a caption
-    var imgSeven = document.getElementById('myImg07');
-    var modalImgSeven = document.getElementById("img07");
-    var captionTextSeven = document.getElementById("caption07");
-    imgSeven.onclick = function(){
-        modalSeven.style.display = "block";
-        modalImgSeven.src = this.src;
-        modalImgSeven.alt = this.alt;
-        captionTextSeven.innerHTML = this.alt;
+    var imgFifteen = document.getElementById('myImg015');
+    var modalImgFifteen = document.getElementById("img015");
+    var captionTextFifteen = document.getElementById("caption015");
+    imgFifteen.onclick = function(){
+        modalFifteen.style.display = "block";
+        modalImgFifteen.src = this.src;
+        modalImgFifteen.alt = this.alt;
+        captionTextFifteen.innerHTML = this.alt;
     }
 
 
     // When the user clicks on <span> (x), close the modal
-    modalSeven.onclick = function() {
-        img07.className += " out";
+    modalFifteen.onclick = function() {
+        img015.className += " out";
         setTimeout(function() {
-           modalSeven.style.display = "none";
-           img07.className = "modal-content";
+           modalFifteen.style.display = "none";
+           img015.className = "modal-content";
          }, 400);
         
     }

@@ -30,9 +30,9 @@
                 <img id="myImg02" src="../assets/rossie_world_website_002.jpg" alt="">
                 
                 <!-- The Modal -->
-                <div id="myModal" class="modal">
+                <div id="myModal-02" class="modal">
                     <img class="modal-content" id="img02">
-                    <div id="caption"></div>
+                    <div id="caption02"></div>
                 </div>
             </div>
             <div class="item">
@@ -240,14 +240,14 @@
     }    
     
     // Get the modal 2
-    var modal = document.getElementById('myModal');
+    var modalTwo = document.getElementById('myModal-02');
 
     // Get the image and insert it inside the modal - use its "alt" text as a caption
     var imgTwo = document.getElementById('myImg02');
     var modalImgTwo = document.getElementById("img02");
-    var captionTextTwo = document.getElementById("caption");
+    var captionTextTwo = document.getElementById("caption02");
     imgTwo.onclick = function(){
-        modal.style.display = "block";
+        modalTwo.style.display = "block";
         modalImgTwo.src = this.src;
         modalImgTwo.alt = this.alt;
         captionTextTwo.innerHTML = this.alt;
@@ -255,10 +255,10 @@
 
 
     // When the user clicks on <span> (x), close the modal
-    modal.onclick = function() {
+    modalTwo.onclick = function() {
         img02.className += " out";
         setTimeout(function() {
-           modal.style.display = "none";
+           modalTwo.style.display = "none";
            img02.className = "modal-content";
          }, 400);
         

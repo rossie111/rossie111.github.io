@@ -515,26 +515,26 @@
     }
 
     // Get the modal 13
-    var modalSeven = document.getElementById('myModal-07');
+    var modalThirteen = document.getElementById('myModal-013');
 
     // Get the image and insert it inside the modal - use its "alt" text as a caption
-    var imgSeven = document.getElementById('myImg07');
-    var modalImgSeven = document.getElementById("img07");
-    var captionTextSeven = document.getElementById("caption07");
-    imgSeven.onclick = function(){
-        modalSeven.style.display = "block";
-        modalImgSeven.src = this.src;
-        modalImgSeven.alt = this.alt;
-        captionTextSeven.innerHTML = this.alt;
+    var imgThirteen = document.getElementById('myImg013');
+    var modalImgThirteen = document.getElementById("img013");
+    var captionTextThirteen = document.getElementById("caption013");
+    imgThirteen.onclick = function(){
+        modalThirteen.style.display = "block";
+        modalImgThirteen.src = this.src;
+        modalImgThirteen.alt = this.alt;
+        captionTextThirteen.innerHTML = this.alt;
     }
 
 
     // When the user clicks on <span> (x), close the modal
-    modalSeven.onclick = function() {
-        img07.className += " out";
+    modalThirteen.onclick = function() {
+        img013.className += " out";
         setTimeout(function() {
-           modalSeven.style.display = "none";
-           img07.className = "modal-content";
+           modalThirteen.style.display = "none";
+           img013.className = "modal-content";
          }, 400);
         
     }

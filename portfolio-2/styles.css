@@ -112,7 +112,7 @@ h1 small {
 }
 
 /* Caption of Modal Image */
-#caption01 {
+#caption01, #caption02, #caption03, #caption04, #caption05, #caption06, #caption07, #caption08, #caption09, #caption010, #caption011, #caption012, #caption013, #caption014, #caption015, #caption016, #caption017, #caption018 {
     margin: auto;
     display: block;
     width: 80%;
@@ -124,7 +124,7 @@ h1 small {
 }
 
 /* Add Animation */
-.modal-content, #caption01 {
+.modal-content, #caption01, #caption02, #caption03, #caption04, #caption05, #caption06, #caption07, #caption08, #caption09, #caption010, #caption011, #caption012, #caption013, #caption014, #caption015, #caption016, #caption017, #caption018 {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;

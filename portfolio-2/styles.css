@@ -60,7 +60,7 @@ h1 small {
     overflow: hidden;
 }
 
-#myImg01, #myImg02 {
+#myImg01, #myImg02, #myImg03, #myImg04, #myImg05, #myImg06, #myImg07, #myImg08, #myImg09, #myImg010, #myImg011, #myImg012, #myImg013, #myImg014, #myImg015, #myImg016, #myImg017, #myImg018 {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
@@ -70,9 +70,23 @@ h1 small {
 }
 
 #myImg01:hover {opacity: 0.7;}
-
-
-#myImg02:hover {opacity: 0.7;}
+#myImg02:hover {opacity: 0.7;} 
+#myImg03:hover {opacity: 0.7;}
+#myImg04:hover {opacity: 0.7;}
+#myImg05:hover {opacity: 0.7;}
+#myImg06:hover {opacity: 0.7;}
+#myImg07:hover {opacity: 0.7;}
+#myImg08:hover {opacity: 0.7;}
+#myImg09:hover {opacity: 0.7;}
+#myImg010:hover {opacity: 0.7;}
+#myImg011:hover {opacity: 0.7;}
+#myImg012:hover {opacity: 0.7;}
+#myImg013:hover {opacity: 0.7;}
+#myImg014:hover {opacity: 0.7;}
+#myImg015:hover {opacity: 0.7;}
+#myImg016:hover {opacity: 0.7;}
+#myImg017:hover {opacity: 0.7;}
+#myImg018:hover {opacity: 0.7;}
 
 /* The Modal (background) */
 .modal {
@@ -98,7 +112,7 @@ h1 small {
 }
 
 /* Caption of Modal Image */
-#caption {
+#caption01 {
     margin: auto;
     display: block;
     width: 80%;

@@ -163,6 +163,7 @@ h1 small {
     color: #FFF;
     text-decoration: underline;
     font-weight: bold;
+    text-align: center;
 }
 
 /* 100% Image Width on Smaller Screens */

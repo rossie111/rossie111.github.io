@@ -78,13 +78,13 @@ p.desc:hover {
 
 @media only screen and (max-width: 480px){ 
 	#artist-statement{
-		font-size: 210%;
+		font-size: 79%;
 	}
 }
 
 @media only screen and (max-width: 360px){
 	#artist-statement{
-		font-size: 222%;
+		font-size: 84%;
 	}
 }
 

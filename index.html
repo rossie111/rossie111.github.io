@@ -1,36 +1,699 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ROSSIE WORLD</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-   <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
-  <!-- this is where my meta-info lives, but won’t show up on the page itself-->
-</head>
-<body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Rossie World Portfolio</title>
+        <!-- Include some stylesheet containing your configuration -->
+        <link rel="stylesheet" href="salvattore.css">
 
-  <p></p><p>
+        <!-- For demo only -->
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="styles.css">
 
-	<div id="artist-statement"> <p>My name is rossie.  </p>
-		
-		<p>I am an artist, musician, and community organizer that has been living, learning, and playing on Yelamu land (now referred to as San Francisco) for ~10 years.  I grew up 20 miles south of SF and am deeply indebted to the rolling hills and dreams of a progressive utopia that have shaped my understanding of a lived environment. </p>
-	
-		<p>I draw heavily from my background as a food sovereignty organizer, a scholar and former research assistant in the field of Geography, a former freelance photojournalist, and a mestiza (mixed native american and european descent) queer.</p>
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
 
-		<p>I am interested in ways of examining settler colonialism and reindigenizing our relations in the context of displacement and modernization. </p>
+        <!-- JS -->
+       <!--  <script
+              src="https://code.jquery.com/jquery-3.6.3.min.js"
+              integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+              crossorigin="anonymous"></script>
+        <script src="../assets/script.js"></script> -->
 
-		<p>I explore concepts of home, nature, memory, and the body while considering ideas on spirituality, quantum physics, and meta physics. My mediums include collage, illustration, web design, photography, poetry, essay, video, performance, installation, and social practice.  </p>
-	</div>
+    </head>
+    <body>
+        <h1>ROSSIE <small>world</small></h1>
 
-	<div>
-		<a href="portfolio-2/index.html">portfolio</a> | <a href="https://instagram.com/rossie.world">instagram </a> | <a href="mailto:rosie.linares.diaz@gmail.com"> email </a>
-	</div>
-	<p>
+        <!-- include 'data-columns' at the container -->
+        <div id="timeline" data-columns>
+            <div class="item">
+                <!-- Image Zoom HTML -->
+                <img id="myImg01" src="../assets/rossie_world_website_001.jpg" alt="Decolonizing My Mind, 2019-ongoing,<br> installation.">
+                
+                <!-- The Modal -->
+                <div id="myModal-01" class="modal">
+                    <img class="modal-content" id="img01">
+                    <div id="caption01"><p></p></div>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Image Zoom HTML -->
+                <img id="myImg02" src="../assets/rossie_world_website_002.jpg" alt="Unconscious Holy Love: Exploring the 12th House, <br>2019 Magazine, acrylic, modge podge on canvas, <br>14 x 11 inches.">
+                
+                <!-- The Modal -->
+                <div id="myModal-02" class="modal">
+                    <img class="modal-content" id="img02">
+                    <div id="caption02"><p></p></div>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Image Zoom HTML -->
+                <img id="myImg03" src="../assets/rossie_world_website_003.jpg" alt="Patriarchy is destruction, 2020,<br> Magazine, cork board.">
+                
+                <!-- The Modal -->
+                <div id="myModal-03" class="modal">
+                    <img class="modal-content" id="img03">
+                    <div id="caption03"><p></p></div>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Image Zoom HTML -->
+                <img id="myImg04" src="../assets/rossie_world_website_004.jpg" alt="Picture Perfect Patriarchy, 2019<br>
+                Magazine, acrylic, modge podge on canvas.<br>20 x 15 inches">
+                
+                <!-- The Modal -->
+                <div id="myModal-04" class="modal">
+                    <img class="modal-content" id="img04">
+                    <div id="caption04"><p></p></div>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Image Zoom HTML -->
+                <video width="100%" controls autoplay muted loop>
+                    <source id="myImg05" src="../assets/rossie_world_website_005.mp4" type="video/mp4" />
+                </video>
+
+                <!-- The Modal -->
+                <div id="myModal-05" class="modal">
+                    <img class="modal-content" id="img05">
+                    <div id="caption05"><p></p></div>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Image Zoom HTML -->
+                <img id="myImg06" src="../assets/rossie_world_website_006.mp4" alt="">
+                
+                <!-- The Modal -->
+                <div id="myModal-06" class="modal">
+                    <img class="modal-content" id="img06">
+                    <div id="caption06"><p></p></div>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Image Zoom HTML -->
+                <img id="myImg07" src="../assets/rossie_world_website_007.jpg" alt="Still of video from Cordova Web, 2020-ongoing,<br> Social practice. https://cordovaweb.net">
+                
+                <!-- The Modal -->
+                <div id="myModal-07" class="modal">
+                    <img class="modal-content" id="img07">
+                    <div id="caption07"><p></p></div>
+                </div>
+            </div>
+            <div class="item">
+                <p>~•°♡✰rossie.world✰♡°•~</p>
+                <!-- Image Zoom HTML -->
+                <img id="myImg08" src="../assets/rossie_world_website_008.jpg" alt="Rossie.world website mock up, 2021, <br>digital.">
+                
+                <!-- The Modal -->
+                <div id="myModal-08" class="modal">
+                    <img class="modal-content" id="img08">
+                    <div id="caption08"><p></p></div>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Image Zoom HTML -->
+                <img id="myImg09" src="../assets/rossie_world_website_009.jpg" alt="altar y ofrendas - b'eleje b'atz - 9 b'atz - day to honor women - day to honor earth">
+                
+                <!-- The Modal -->
+                <div id="myModal-09" class="modal">
+                    <img class="modal-content" id="img09">
+                    <div id="caption09"><p></p></div>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Image Zoom HTML -->
+                <img id="myImg010" src="../assets/rossie_world_website_010.jpg" alt="">
+                
+                <!-- The Modal -->
+                <div id="myModal-010" class="modal">
+                    <img class="modal-content" id="img010">
+                    <div id="caption010"><p></p></div>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Image Zoom HTML -->
+                <img id="myImg011" src="../assets/rossie_world_website_011.jpg" alt="">
+                
+                <!-- The Modal -->
+                <div id="myModal-011" class="modal">
+                    <img class="modal-content" id="img011">
+                    <div id="caption011"><p></p></div>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Image Zoom HTML -->
+                <img id="myImg012" src="../assets/rossie_world_website_012.jpg" alt="">
+                
+                <!-- The Modal -->
+                <div id="myModal-012" class="modal">
+                    <img class="modal-content" id="img012">
+                    <div id="caption012"><p></p></div>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Image Zoom HTML -->
+                <img id="myImg013" src="../assets/rossie_world_website_013.jpg" alt="xochitl at hummingbird farm, august 2021. film.">
+                
+                <!-- The Modal -->
+                <div id="myModal-013" class="modal">
+                    <img class="modal-content" id="img013">
+                    <div id="caption013"><p></p></div>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Image Zoom HTML -->
+                <img id="myImg014" src="../assets/rossie_world_website_014.jpg" alt="bouquet making at hummingbird farm, august 2021.<br> film.">
+                
+                <!-- The Modal -->
+                <div id="myModal-014" class="modal">
+                    <img class="modal-content" id="img014">
+                    <div id="caption014"><p></p></div>
+                </div>
+            </div>
+            <!-- <div class="item">
+                <p>TIght</p>
+            </div> -->
+            <div class="item">
+                <!-- <p>artist statement</p> -->
+                <!-- Image Zoom HTML --><img id="myImg015" src="../assets/rossie_world_website_015.jpg" alt="">
+                
+                <!-- The Modal -->
+                <div id="myModal-015" class="modal">
+                    <img class="modal-content" id="img015">
+                    <div id="caption015"><p></p></div>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Image Zoom HTML -->
+                <img id="myImg016" src="../assets/rossie_world_website_016.jpg" alt="inkza, august 2021.<br> film.">
+                
+                <!-- The Modal -->
+                <div id="myModal-016" class="modal">
+                    <img class="modal-content" id="img016">
+                    <div id="caption016"><p></p></div>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Image Zoom HTML -->
+                <img id="myImg017" src="../assets/rossie_world_website_017.jpg" alt="lealani, august 2021.<br> film.">
+                
+                <!-- The Modal -->
+                <div id="myModal-017" class="modal">
+                    <img class="modal-content" id="img017">
+                    <div id="caption017"><p></p></div>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Image Zoom HTML -->
+                <img id="myImg018" src="../assets/rossie_world_website_018.jpg" alt="">
+                
+                <!-- The Modal -->
+                <div id="myModal-018" class="modal">
+                    <img class="modal-content" id="img018">
+                    <div id="caption018"><p></p></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <center><a href="http://rossie.world/" target="_blank">artist statement</a><!-- |
+          <a href="http://twitter.com/salvattorejs" target="_blank">Twitter</a> |
+          Made by <a href="http://rolandomurillo.com/" target="_blank">Rolando Murillo</a>
+          and <a href="http://github.com/ppold" target="_blank">Giorgio Leveroni.</a> -->
+            </center>
+        </div>
+
+        <!-- The script must be included at the bottom of the body to work -->
+        <script src="../assets/salvattore.min.js"></script>
+
+        <script>
+    // Get the modal 1
+    var modalOne = document.getElementById('myModal-01');
+     
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var imgOne = document.getElementById('myImg01');
+    var modalImgOne = document.getElementById("img01");
+    var captionTextOne = document.getElementById("caption01");
+    imgOne.onclick = function(){
+        modalOne.style.display = "block";
+        modalImgOne.src = this.src;
+        modalImgOne.alt = this.alt;
+        captionTextOne.innerHTML = this.alt;
+    }
+     
+     
+    // When the user clicks on <span> (x), close the modal
+    modalOne.onclick = function() {
+        img01.className += " out";
+        setTimeout(function() {
+           modalOne.style.display = "none";
+           img01.className = "modal-content";
+         }, 400);
+        
+    }    
+    
+    // Get the modal 2
+    var modalTwo = document.getElementById('myModal-02');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var imgTwo = document.getElementById('myImg02');
+    var modalImgTwo = document.getElementById("img02");
+    var captionTextTwo = document.getElementById("caption02");
+    imgTwo.onclick = function(){
+        modalTwo.style.display = "block";
+        modalImgTwo.src = this.src;
+        modalImgTwo.alt = this.alt;
+        captionTextTwo.innerHTML = this.alt;
+    }
 
 
+    // When the user clicks on <span> (x), close the modal
+    modalTwo.onclick = function() {
+        img02.className += " out";
+        setTimeout(function() {
+           modalTwo.style.display = "none";
+           img02.className = "modal-content";
+         }, 400);
+        
+    }
+
+    // Get the modal 3
+    var modalThree = document.getElementById('myModal-03');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var imgThree = document.getElementById('myImg03');
+    var modalImgThree = document.getElementById("img03");
+    var captionTextThree = document.getElementById("caption03");
+    imgThree.onclick = function(){
+        modalThree.style.display = "block";
+        modalImgThree.src = this.src;
+        modalImgThree.alt = this.alt;
+        captionTextThree.innerHTML = this.alt;
+    }
 
 
-</body>
+    // When the user clicks on <span> (x), close the modal
+    modalThree.onclick = function() {
+        img03.className += " out";
+        setTimeout(function() {
+           modalThree.style.display = "none";
+           img03.className = "modal-content";
+         }, 400);
+        
+    }
+
+    // Get the modal 4
+    var modalFour = document.getElementById('myModal-04');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var imgFour = document.getElementById('myImg04');
+    var modalImgFour = document.getElementById("img04");
+    var captionTextFour = document.getElementById("caption04");
+    imgFour.onclick = function(){
+        modalFour.style.display = "block";
+        modalImgFour.src = this.src;
+        modalImgFour.alt = this.alt;
+        captionTextFour.innerHTML = this.alt;
+    }
+
+
+    // When the user clicks on <span> (x), close the modal
+    modalFour.onclick = function() {
+        img04.className += " out";
+        setTimeout(function() {
+           modalFour.style.display = "none";
+           img04.className = "modal-content";
+         }, 400);
+        
+    }  
+
+    // Get the modal 5 -- maybe delete becasue it's a video and zoom function is not working?
+    var modalFive = document.getElementById('myModal-05');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var imgFive = document.getElementById('myImg05');
+    var modalImgFive = document.getElementById("img05");
+    var captionTextFive = document.getElementById("caption05");
+    imgFive.onclick = function(){
+        modalFive.style.display = "block";
+        modalImgFive.src = this.src;
+        modalImgFive.alt = this.alt;
+        captionTextFive.innerHTML = this.alt;
+    }
+
+
+    // When the user clicks on <span> (x), close the modal
+    modalFive.onclick = function() {
+        img05.className += " out";
+        setTimeout(function() {
+           modalFive.style.display = "none";
+           img05.className = "modal-content";
+         }, 400);
+        
+    }
+
+    // Get the modal 6 -- maybe delete becasue it's a video and zoom function is not working?
+    var modalSix = document.getElementById('myModal-06');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var imgSix = document.getElementById('myImg06');
+    var modalImgSix = document.getElementById("img06");
+    var captionTextSix = document.getElementById("caption06");
+    imgSix.onclick = function(){
+        modalSix.style.display = "block";
+        modalImgSix.src = this.src;
+        modalImgSix.alt = this.alt;
+        captionTextSix.innerHTML = this.alt;
+    }
+
+
+    // When the user clicks on <span> (x), close the modal
+    modalSix.onclick = function() {
+        img06.className += " out";
+        setTimeout(function() {
+           modalSix.style.display = "none";
+           img06.className = "modal-content";
+         }, 400);
+        
+    }
+
+    // Get the modal 7
+    var modalSeven = document.getElementById('myModal-07');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var imgSeven = document.getElementById('myImg07');
+    var modalImgSeven = document.getElementById("img07");
+    var captionTextSeven = document.getElementById("caption07");
+    imgSeven.onclick = function(){
+        modalSeven.style.display = "block";
+        modalImgSeven.src = this.src;
+        modalImgSeven.alt = this.alt;
+        captionTextSeven.innerHTML = this.alt;
+    }
+
+
+    // When the user clicks on <span> (x), close the modal
+    modalSeven.onclick = function() {
+        img07.className += " out";
+        setTimeout(function() {
+           modalSeven.style.display = "none";
+           img07.className = "modal-content";
+         }, 400);
+        
+    }
+
+    // Get the modal 8
+    var modalEight = document.getElementById('myModal-08');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var imgEight = document.getElementById('myImg08');
+    var modalImgEight = document.getElementById("img08");
+    var captionTextEight = document.getElementById("caption08");
+    imgEight.onclick = function(){
+        modalEight.style.display = "block";
+        modalImgEight.src = this.src;
+        modalImgEight.alt = this.alt;
+        captionTextEight.innerHTML = this.alt;
+    }
+
+
+    // When the user clicks on <span> (x), close the modal
+    modalEight.onclick = function() {
+        img08.className += " out";
+        setTimeout(function() {
+           modalEight.style.display = "none";
+           img08.className = "modal-content";
+         }, 400);
+        
+    }
+
+    // Get the modal 9
+    var modalNine = document.getElementById('myModal-09');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var imgNine = document.getElementById('myImg09');
+    var modalImgNine = document.getElementById("img09");
+    var captionTextNine = document.getElementById("caption09");
+    imgNine.onclick = function(){
+        modalNine.style.display = "block";
+        modalImgNine.src = this.src;
+        modalImgNine.alt = this.alt;
+        captionTextNine.innerHTML = this.alt;
+    }
+
+
+    // When the user clicks on <span> (x), close the modal
+    modalNine.onclick = function() {
+        img09.className += " out";
+        setTimeout(function() {
+           modalNine.style.display = "none";
+           img09.className = "modal-content";
+         }, 400);
+        
+    }
+
+    // Get the modal 10
+    var modalTen = document.getElementById('myModal-010');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var imgTen = document.getElementById('myImg010');
+    var modalImgTen = document.getElementById("img010");
+    var captionTextTen = document.getElementById("caption010");
+    imgTen.onclick = function(){
+        modalTen.style.display = "block";
+        modalImgTen.src = this.src;
+        modalImgTen.alt = this.alt;
+        captionTextTen.innerHTML = this.alt;
+    }
+
+
+    // When the user clicks on <span> (x), close the modal
+    modalTen.onclick = function() {
+        img010.className += " out";
+        setTimeout(function() {
+           modalTen.style.display = "none";
+           img010.className = "modal-content";
+         }, 400);
+        
+    }
+
+    // Get the modal 11
+    var modalEleven = document.getElementById('myModal-011');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var imgEleven = document.getElementById('myImg011');
+    var modalImgEleven = document.getElementById("img011");
+    var captionTextEleven = document.getElementById("caption011");
+    imgEleven.onclick = function(){
+        modalEleven.style.display = "block";
+        modalImgEleven.src = this.src;
+        modalImgEleven.alt = this.alt;
+        captionTextEleven.innerHTML = this.alt;
+    }
+
+
+    // When the user clicks on <span> (x), close the modal
+    modalEleven.onclick = function() {
+        img011.className += " out";
+        setTimeout(function() {
+           modalEleven.style.display = "none";
+           img011.className = "modal-content";
+         }, 400);
+        
+    }
+
+    // Get the modal 12
+    var modalTwelve = document.getElementById('myModal-012');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var imgTwelve = document.getElementById('myImg012');
+    var modalImgTwelve = document.getElementById("img012");
+    var captionTextTwelve = document.getElementById("caption012");
+    imgTwelve.onclick = function(){
+        modalTwelve.style.display = "block";
+        modalImgTwelve.src = this.src;
+        modalImgTwelve.alt = this.alt;
+        captionTextTwelve.innerHTML = this.alt;
+    }
+
+
+    // When the user clicks on <span> (x), close the modal
+    modalTwelve.onclick = function() {
+        img012.className += " out";
+        setTimeout(function() {
+           modalTwelve.style.display = "none";
+           img012.className = "modal-content";
+         }, 400);
+        
+    }
+
+    // Get the modal 13
+    var modalThirteen = document.getElementById('myModal-013');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var imgThirteen = document.getElementById('myImg013');
+    var modalImgThirteen = document.getElementById("img013");
+    var captionTextThirteen = document.getElementById("caption013");
+    imgThirteen.onclick = function(){
+        modalThirteen.style.display = "block";
+        modalImgThirteen.src = this.src;
+        modalImgThirteen.alt = this.alt;
+        captionTextThirteen.innerHTML = this.alt;
+    }
+
+
+    // When the user clicks on <span> (x), close the modal
+    modalThirteen.onclick = function() {
+        img013.className += " out";
+        setTimeout(function() {
+           modalThirteen.style.display = "none";
+           img013.className = "modal-content";
+         }, 400);
+        
+    }
+
+    // Get the modal 14
+    var modalFourteen = document.getElementById('myModal-014');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var imgFourteen = document.getElementById('myImg014');
+    var modalImgFourteen = document.getElementById("img014");
+    var captionTextFourteen = document.getElementById("caption014");
+    imgFourteen.onclick = function(){
+        modalFourteen.style.display = "block";
+        modalImgFourteen.src = this.src;
+        modalImgFourteen.alt = this.alt;
+        captionTextFourteen.innerHTML = this.alt;
+    }
+
+
+    // When the user clicks on <span> (x), close the modal
+    modalFourteen.onclick = function() {
+        img014.className += " out";
+        setTimeout(function() {
+           modalFourteen.style.display = "none";
+           img014.className = "modal-content";
+         }, 400);
+        
+    }
+
+    // Get the modal 15
+    var modalFifteen = document.getElementById('myModal-015');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var imgFifteen = document.getElementById('myImg015');
+    var modalImgFifteen = document.getElementById("img015");
+    var captionTextFifteen = document.getElementById("caption015");
+    imgFifteen.onclick = function(){
+        modalFifteen.style.display = "block";
+        modalImgFifteen.src = this.src;
+        modalImgFifteen.alt = this.alt;
+        captionTextFifteen.innerHTML = this.alt;
+    }
+
+
+    // When the user clicks on <span> (x), close the modal
+    modalFifteen.onclick = function() {
+        img015.className += " out";
+        setTimeout(function() {
+           modalFifteen.style.display = "none";
+           img015.className = "modal-content";
+         }, 400);
+        
+    }
+
+    // Get the modal 16
+    var modalSixteen = document.getElementById('myModal-016');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var imgSixteen = document.getElementById('myImg016');
+    var modalImgSixteen = document.getElementById("img016");
+    var captionTextSixteen = document.getElementById("caption016");
+    imgSixteen.onclick = function(){
+        modalSixteen.style.display = "block";
+        modalImgSixteen.src = this.src;
+        modalImgSixteen.alt = this.alt;
+        captionTextSixteen.innerHTML = this.alt;
+    }
+
+
+    // When the user clicks on <span> (x), close the modal
+    modalSixteen.onclick = function() {
+        img016.className += " out";
+        setTimeout(function() {
+           modalSixteen.style.display = "none";
+           img016.className = "modal-content";
+         }, 400);
+        
+    }
+
+    // Get the modal 17
+    var modalSeventeen = document.getElementById('myModal-017');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var imgSeventeen = document.getElementById('myImg017');
+    var modalImgSeventeen = document.getElementById("img017");
+    var captionTextSeventeen = document.getElementById("caption017");
+    imgSeventeen.onclick = function(){
+        modalSeventeen.style.display = "block";
+        modalImgSeventeen.src = this.src;
+        modalImgSeventeen.alt = this.alt;
+        captionTextSeventeen.innerHTML = this.alt;
+    }
+
+
+    // When the user clicks on <span> (x), close the modal
+    modalSeventeen.onclick = function() {
+        img017.className += " out";
+        setTimeout(function() {
+           modalSeventeen.style.display = "none";
+           img017.className = "modal-content";
+         }, 400);
+        
+    }
+
+    // Get the modal 18
+    var modalEighteen = document.getElementById('myModal-018');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var imgEighteen = document.getElementById('myImg018');
+    var modalImgEighteen = document.getElementById("img018");
+    var captionTextEighteen = document.getElementById("caption018");
+    imgEighteen.onclick = function(){
+        modalEighteen.style.display = "block";
+        modalImgEighteen.src = this.src;
+        modalImgEighteen.alt = this.alt;
+        captionTextEighteen.innerHTML = this.alt;
+    }
+
+
+    // When the user clicks on <span> (x), close the modal
+    modalEighteen.onclick = function() {
+        img018.className += " out";
+        setTimeout(function() {
+           modalEighteen.style.display = "none";
+           img018.className = "modal-content";
+         }, 400);
+        
+    }
+
+    </script>
+
+     <script
+              src="https://code.jquery.com/jquery-3.6.3.min.js"
+              integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+              crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            alert( 'My name is rossie.');
+            alert( 'I am an artist, musician, and community organizer that has been living, learning, and playing on Yelamu land (now referred to as San Francisco) for ~10 years. I grew up 20 miles south of SF and am deeply indebted to the rolling hills and dreams of a progressive utopia that have shaped my understanding of a lived environment. '); 
+            alert( 'I draw heavily from my background as a food sovereignty organizer, a scholar and former research assistant in the field of Geography, a former freelance photojournalist, and a mestiza (mixed native american and european descent) queer.');
+            
+        });
+
+        console.log('hi'); 
+    </script>
+
+    </body>
 </html>

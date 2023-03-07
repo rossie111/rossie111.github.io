@@ -1,3 +1,5 @@
 $(document).ready(function(){
-	alert('hi');
+	alert( 'My name is rossie.')
 });
+
+console.log('hi'); 

@@ -2,7 +2,12 @@ body {
 	text-align: center;
 	background: black; 
   font-family: 'Syne Mono', monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
 }
+
 
 #artist-statement {
 	color: #f500b9;
@@ -75,16 +80,6 @@ p.desc:hover {
 /* End CSS Gallery Code*/
 
 
-
-body {
-  background-color: black;
-  color: rgb(212, 255, 71);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  box-sizing: border-box;
-  font-family: 'Syne Mono', monospace;
-}
 
 .slider-wrapper {
   /*margin: 1rem;*/

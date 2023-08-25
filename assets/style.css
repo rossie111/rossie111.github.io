@@ -76,6 +76,232 @@ p.desc:hover {
 
 
 
+body {
+  background-color: black;
+  color: rgb(212, 255, 71);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  font-family: 'Syne Mono', monospace;
+}
+
+.slider-wrapper {
+  /*margin: 1rem;*/
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.slides-container {
+  height: calc(100vh - 2rem);
+/*  width: 90%;*/
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scroll-snap-type: x mandatory;
+}
+
+/* WebKit */
+.slides-container::-webkit-scrollbar { 
+  width: 0;
+  height: 0;
+} 
+
+.slide {
+  width: 100%;
+  height: 100%;
+  flex: 1 0 100%;
+  scroll-snap-align: center;
+}
+
+
+.slide-arrow {
+  position: absolute;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 4rem;
+  background-color: white;
+  border: none;
+  width: 2rem;
+  font-size: 3rem;
+  padding: 0;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 100ms;
+  z-index: 1;
+}
+
+.slide-arrow:hover,
+.slide-arrow:focus {
+  opacity: 1;
+}
+
+#slide-arrow-prev {
+  left: 0;
+  padding-left: 0.25rem;
+  border-radius: 0 2rem 2rem 0;
+}
+
+#slide-arrow-next {
+  right: 0;
+  padding-left: 0.75rem;
+  border-radius: 2rem 0 0 2rem;
+}
+
+
+
+
+
+#intro {
+  font-size: 40px;
+  margin: 4%;
+  line-height: 110%;
+}
+
+
+#carousel-icons {
+  position: fixed;
+  bottom: 0;
+  left: 8vw;
+  width: 81vw;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+}
+
+/*li{
+  text-align: center;
+  color: #1E1E1E;
+}*/
+
+#active-li{
+  color: rgb(212, 255, 71);
+}
+
+#body2{
+  background-image: url("img/mapbackground.png")
+}
+
+h2 {
+  text-align: center;
+  font-size: 71px;
+  text-transform: uppercase;
+  font-family: 'Karla', sans-serif;
+    color: #FF0000;
+    text-shadow: 6px -5px 15px #FF003D;
+    letter-spacing: -0.3rem;
+    line-height: 90%;
+    margin: 4%;
+}
+
+
+.text {
+  border: dashed;
+  border-radius: 50px;
+  padding: 0px 20px;
+  font-size: 24px;
+  background-color: black;
+  box-sizing: border-box;
+  width: 84vw;
+  height: 80vh;
+  margin: 5vh auto 6vh;
+  line-height: 1.1;
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+  }
+
+
+
+.img {
+  /*width: 383px;*/
+  width: 80%;
+    max-width: 950px;
+    margin: auto;
+}
+
+img {
+  width:  100%;
+}
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+  section {
+    width:  100%;
+  }
+}
+ 
+/* For Tablet View */
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+  section {
+    width: 400px;
+    height: 809px;
+  }
+}
+ 
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+  section {
+    width: 400px;
+    height: 809px;
+  }
+}
+ 
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px)
+and (orientation: landscape) {
+  section {
+    width: 400px;
+    height: 809px;
+  }
+}
+ 
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+  section {
+    width: 400px;
+    height: 809px;
+  }
+}
+ 
+/* For iPhone 4 Portrait or Landscape View */
+@media screen and (min-device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  section {
+    /*width: 400px;*/
+    height: 809px;
+  }
+}
+ 
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  section {
+    width: 400px;
+    height: 809px;
+  }
+}
+ 
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) and (min-device-width: 375px)
+and (-webkit-min-device-pixel-ratio: 3) {
+  section {
+    width: 400px;
+    height: 809px;
+  }
+}
+
 
 @media only screen and (max-width: 480px){ 
 	#artist-statement{

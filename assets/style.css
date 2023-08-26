@@ -93,16 +93,6 @@ body {
 }
 
 
-
-
-
-#intro {
-  font-size: 40px;
-  margin: 4%;
-  line-height: 110%;
-}
-
-
 #carousel-icons {
   position: fixed;
   bottom: 0;
@@ -123,24 +113,6 @@ body {
   color: rgb(212, 255, 71);
 }
 
-
-
-
-.text {
-  border: dashed;
-  border-radius: 50px;
-  padding: 0px 20px;
-  font-size: 24px;
-  background-color: black;
-  box-sizing: border-box;
-  width: 84vw;
-  height: 80vh;
-  margin: 5vh auto 6vh;
-  line-height: 1.1;
-  overflow-y: scroll;
-  scrollbar-color: rebeccapurple green;
-  scrollbar-width: thin;
-  }
 
 
 

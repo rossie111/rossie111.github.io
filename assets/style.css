@@ -119,8 +119,8 @@ body {
 .img {
   /*width: 383px;*/
   width: 80%;
-    max-width: 950px;
-    margin: auto;
+  max-width: 950px;
+  margin: auto;
 }
 
 img {

@@ -107,8 +107,8 @@ h1 small {
 .modal-content {
     margin: auto;
     display: block;
-    width: 75%;
-    //max-width: 75%;
+    max-width: 75%;
+    max-height: 85%;
 }
 
 /* Caption of Modal Image */

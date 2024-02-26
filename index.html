@@ -218,6 +218,21 @@
                 <div id="caption018"><p></p></div>
             </div>
         </div>
+        <div class="item">
+            <!-- Image Zoom HTML -->
+            <div style="padding:56.25% 0 0 0;position:relative;">
+                <iframe id="myImg02" src="https://player.vimeo.com/video/902589212?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Uprooted and Rising Aramark Action">
+                </iframe>
+            </div>
+        
+            <script src="https://player.vimeo.com/api/player.js"></script>
+            
+            <!-- The Modal -->
+            <div id="myModal-19" class="modal">
+                <img class="modal-content" id="img02">
+                <div id="caption19"><p></p></div>
+            </div>
+        </div>
     </div>
     <div class="footer">
         <center>
@@ -671,13 +686,27 @@
         captionTextEighteen.innerHTML = this.alt;
     }
 
+    // Get the modal 18
+    var modalNineteen = document.getElementById('myModal-019');
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var imgNineteen = document.getElementById('myImg019');
+    var modalImgNineteen = document.getElementById("img019");
+    var captionTextNineteen = document.getElementById("caption019");
+    imgNineteen.onclick = function(){
+        modalNineteen.style.display = "block";
+        modalImgNineteen.src = this.src;
+        modalImgNineteen.alt = this.alt;
+        captionTextNineteen.innerHTML = this.alt;
+    }
+
 
     // When the user clicks on <span> (x), close the modal
-    modalEighteen.onclick = function() {
-        img018.className += " out";
+    modalNineteen.onclick = function() {
+        img019.className += " out";
         setTimeout(function() {
-           modalEighteen.style.display = "none";
-           img018.className = "modal-content";
+           modalNineteen.style.display = "none";
+           img019.className = "modal-content";
          }, 400);
         
     }

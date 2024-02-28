@@ -242,24 +242,15 @@
         <div class="item">
             
         </div>
+        
         <div class="item">
             <!-- Image Zoom HTML -->
-            <img id="myImg022" src="assets/rossie_world_website_018.jpg" alt="">
+            <img id="myImg023" src="assets/rossie_world_website_023.jpg" alt="Rossie World: A Companion Manual">
             
             <!-- The Modal -->
-            <div id="myModal-018" class="modal">
-                <img class="modal-content" id="img018">
-                <div id="caption018"><p></p></div>
-            </div>
-        </div>
-        <div class="item">
-            <!-- Image Zoom HTML -->
-            <img id="myImg023" src="assets/rossie_world_website_018.jpg" alt="">
-            
-            <!-- The Modal -->
-            <div id="myModal-018" class="modal">
-                <img class="modal-content" id="img018">
-                <div id="caption018"><p></p></div>
+            <div id="myModal-023" class="modal">
+                <img class="modal-content" id="img023">
+                <div id="caption023"><p></p></div>
             </div>
         </div>
     </div>
@@ -724,29 +715,33 @@
          }, 400);   
     }
 
-    // Get the modal 19
-    var modalNineteen = document.getElementById('myModal-019');
+    
 
+    // Get the modal 23
+    var modalTwentythree = document.getElementById('myModal-023');
+     
     // Get the image and insert it inside the modal - use its "alt" text as a caption
-    var imgNineteen = document.getElementById('myImg019');
-    var modalImgNineteen = document.getElementById("img019");
-    var captionTextNineteen = document.getElementById("caption019");
-    imgNineteen.onclick = function(){
-        modalNineteen.style.display = "block";
-        modalImgNineteen.src = this.src;
-        modalImgNineteen.alt = this.alt;
-        captionTextNineteen.innerHTML = this.alt;
+    var imgTwentythree = document.getElementById('myImg023');
+    var modalImgTwentythree = document.getElementById("img023");
+    var captionTextTwentythree = document.getElementById("caption023");
+    imgTwentythree.onclick = function(){
+        modalTwentythree.style.display = "block";
+        modalImgTwentythree.src = this.src;
+        modalImgTwentythree.alt = this.alt;
+        captionTextTwentythree.innerHTML = this.alt;
     }
-
-
+     
+     
     // When the user clicks on <span> (x), close the modal
-    modalNineteen.onclick = function() {
-        img019.className += " out";
+    modalTwentythree.onclick = function() {
+        img023.className += " out";
         setTimeout(function() {
-           modalNineteen.style.display = "none";
-           img019.className = "modal-content";
-         }, 400);   
-    }
+           modalTwentythree.style.display = "none";
+           img023.className = "modal-content";
+         }, 400);
+        
+    }    
+
 
 
 </script>

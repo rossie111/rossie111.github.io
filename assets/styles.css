@@ -60,7 +60,7 @@ h1 small {
     overflow: hidden;
 }
 
-#myImg01, #myImg02, #myImg03, #myImg04, #myImg05, #myImg06, #myImg07, #myImg08, #myImg09, #myImg010, #myImg011, #myImg012, #myImg013, #myImg014, #myImg015, #myImg016, #myImg017, #myImg018 {
+#myImg01, #myImg02, #myImg03, #myImg04, #myImg05, #myImg06, #myImg07, #myImg08, #myImg09, #myImg010, #myImg011, #myImg012, #myImg013, #myImg014, #myImg015, #myImg016, #myImg017, #myImg018,  #myImg023 {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
@@ -87,6 +87,7 @@ h1 small {
 #myImg016:hover {opacity: 0.7;}
 #myImg017:hover {opacity: 0.7;}
 #myImg018:hover {opacity: 0.7;}
+#myImg023:hover {opacity: 0.7;}
 
 /* The Modal (background) */
 .modal {
@@ -112,7 +113,7 @@ h1 small {
 }
 
 /* Caption of Modal Image */
-#caption01, #caption02, #caption03, #caption04, #caption05, #caption06, #caption07, #caption08, #caption09, #caption010, #caption011, #caption012, #caption013, #caption014, #caption015, #caption016, #caption017, #caption018 {
+#caption01, #caption02, #caption03, #caption04, #caption05, #caption06, #caption07, #caption08, #caption09, #caption010, #caption011, #caption012, #caption013, #caption014, #caption015, #caption016, #caption017, #caption018, #caption023 {
     margin: auto;
     display: block;
     width: 80%;
@@ -124,7 +125,7 @@ h1 small {
 }
 
 /* Add Animation */
-.modal-content, #caption01, #caption02, #caption03, #caption04, #caption05, #caption06, #caption07, #caption08, #caption09, #caption010, #caption011, #caption012, #caption013, #caption014, #caption015, #caption016, #caption017, #caption018 {
+.modal-content, #caption01, #caption02, #caption03, #caption04, #caption05, #caption06, #caption07, #caption08, #caption09, #caption010, #caption011, #caption012, #caption013, #caption014, #caption015, #caption016, #caption017, #caption018, #caption023 {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;

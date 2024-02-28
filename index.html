@@ -233,6 +233,35 @@
                 <div id="caption19"><p></p></div>
             </div>
         </div>
+        <div class="item">
+            
+        </div>
+        <div class="item">
+           
+        </div>
+        <div class="item">
+            
+        </div>
+        <div class="item">
+            <!-- Image Zoom HTML -->
+            <img id="myImg022" src="assets/rossie_world_website_018.jpg" alt="">
+            
+            <!-- The Modal -->
+            <div id="myModal-018" class="modal">
+                <img class="modal-content" id="img018">
+                <div id="caption018"><p></p></div>
+            </div>
+        </div>
+        <div class="item">
+            <!-- Image Zoom HTML -->
+            <img id="myImg023" src="assets/rossie_world_website_018.jpg" alt="">
+            
+            <!-- The Modal -->
+            <div id="myModal-018" class="modal">
+                <img class="modal-content" id="img018">
+                <div id="caption018"><p></p></div>
+            </div>
+        </div>
     </div>
     <div class="footer">
         <center>
@@ -686,7 +715,16 @@
         captionTextEighteen.innerHTML = this.alt;
     }
 
-    // Get the modal 18
+    // When the user clicks on <span> (x), close the modal
+    modalEighteen.onclick = function() {
+        img018.className += " out";
+        setTimeout(function() {
+           modalEighteen.style.display = "none";
+           img018.className = "modal-content";
+         }, 400);   
+    }
+
+    // Get the modal 19
     var modalNineteen = document.getElementById('myModal-019');
 
     // Get the image and insert it inside the modal - use its "alt" text as a caption
@@ -707,9 +745,9 @@
         setTimeout(function() {
            modalNineteen.style.display = "none";
            img019.className = "modal-content";
-         }, 400);
-        
+         }, 400);   
     }
+
 
 </script>
 

@@ -1,5 +1,7 @@
 body {
-	text-align: center;
+	max-width: 1050px;
+  margin: 0 auto;
+  text-align: center;
 	background: black; 
   font-family: 'Syne Mono', monospace;
   display: flex;

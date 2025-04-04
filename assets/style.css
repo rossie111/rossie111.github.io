@@ -129,6 +129,18 @@ img {
   width:  100%;
 }
 
+.footer {
+  font-size: 1em;
+  color: #FFF;
+  margin: 2em;
+}
+
+.footer a {
+  color: #FFF;
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+
 /* For Desktop View */
 @media screen and (min-width: 1024px) {
   section {

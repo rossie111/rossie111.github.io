@@ -4,6 +4,7 @@ body {
   text-align: center;
 	background: black; 
   font-family: 'Syne Mono', monospace;
+  line-height: 1.4em;
   display: flex;
   flex-direction: column;
   justify-content: center;

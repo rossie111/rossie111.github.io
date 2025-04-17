@@ -5,6 +5,12 @@
   /* overflow-y: hidden;*/
 }
 
+@font-face {
+  font-family: 'Noto Mono'; /* Choose a name for the font */
+  src: url('/fonts/NotoMono-Regular.ttf') format('ttf'),
+  /* Add other font formats if needed */
+}
+
 body {
   font-family: Noto Mono;
   /* overflow-x: hidden; Prevent horizontal scroll on body */

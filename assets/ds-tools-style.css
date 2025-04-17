@@ -37,6 +37,7 @@ section {
   position: static;
   top: 30%;
   left: 48px; 
+  padding-left: 4vh;
 }
 
 h1 {
@@ -69,14 +70,14 @@ h1 {
 }
 
 .logos #signal {
-  position: inherit;
+  position: relative;
   bottom: 80px;
   left: 15px;
   width: 155px;
 }
 
 .logos #cryptpad {
-  position: inherit;
+  position: relative;
   top: 40px;
   left: 19px;
 }

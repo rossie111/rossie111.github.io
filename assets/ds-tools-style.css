@@ -33,12 +33,16 @@ section {
   background-size: cover;
 }
 
+#title-laptop {
+  position: static;
+  top: 30%;
+  left: 48px; 
+}
+
 h1 {
   width: 364px;
   color: rgba(0,0,0,1);
-  position: absolute;
-  top: 183px;
-  left: 48px;
+  position: relative;
   text-shadow: 0px 4px 15px rgba(0.3137255012989044, 0.8470588326454163, 0.364705890417099, 0.75);
   font-family: Noto Mono;
   font-weight: Regular;
@@ -46,6 +50,41 @@ h1 {
   opacity: 1;
   text-align: left;
   z-index: 1;
+}
+
+#laptop {
+  position: relative;
+  bottom: 70px;
+  left: 170px;
+  width: 40%; /* Adjust logo size */
+  margin: 0 10px; /* Space between logos */
+  z-index: 1;
+}
+
+.logos img {
+  position: relative;
+  width: 140px; /* Adjust logo size */
+  margin: 0 10px; /* Space between logos */
+  z-index: 1;
+}
+
+.logos #signal {
+  position: inherit;
+  bottom: 80px;
+  left: 15px;
+  width: 155px;
+}
+
+.logos #cryptpad {
+  position: inherit;
+  top: 40px;
+  left: 19px;
+}
+
+.logos #keepassxc {
+  position: relative;
+  bottom: 10px;
+  left: 40px;
 }
 
 h2{
@@ -57,13 +96,14 @@ p section {
   font-family: Noto Mono;
 }
 
-.logos img {
-  position: relative;
-  width: 50px; /* Adjust logo size */
-  margin: 0 10px; /* Space between logos */
+#arrow {
+  position: absolute;
+  bottom:40px;
+  right: 1px;
+  width: 150px; /* Adjust logo size */
+  /* margin: 0 10px; Space between logos */
   z-index: 1;
 }
-
 
 .green-line {
   position: absolute;
@@ -73,6 +113,7 @@ p section {
   height: 100%; /* Height of the green line */
   /* background-color: green; Green line color */
   /* background: url('ds-tools-Messaging-lines.svg'); */
+  z-index: 0;
 }
 
 .green-line img{

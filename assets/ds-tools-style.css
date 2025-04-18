@@ -112,6 +112,7 @@ h1 {
 
 .logos {
   overflow: visible;
+  margin-bottom: 20px;
 }
 
 .logos img {
@@ -150,6 +151,7 @@ p section {
 
 #arrow {
   position: absolute;
+  margin-bottom: 20px;
   bottom:40px;
   right: 5px;
   width: 40px; /* Adjust logo size */

@@ -55,7 +55,7 @@ section {
   background-size: contain;
 }
 
-.ds-tools-cover {
+#ds-tools-cover {
   /* background: url('ds-tools-cover-lines-mobile.png');
   background-size: cover;
   background-repeat: no-repeat; */
@@ -149,33 +149,31 @@ p section {
   font-family: 'Noto Mono';
 }
 
-.button-container {
-  position: fixed; /* Fixes the position of the buttons */
-  bottom: 20px; /* Distance from the bottom of the viewport */
-  left: 50%; /* Center the buttons horizontally */
-  transform: translateX(-50%); /* Adjust for centering */
-  display: flex; /* Use flexbox for layout */
-  gap: 10px; /* Space between buttons */
-  z-index: 1000; /* Ensure buttons are above other content */
+.navigation {
+  position: fixed; /* Fixed position for buttons */
+  bottom: 20px; /* Distance from the bottom */
+  width: 100%; /* Full width */
+  display: flex; /* Flexbox for alignment */
+  justify-content: space-between; /* Space between buttons */
+  padding: 0 20px; /* Padding on the sides */
 }
 
-.button-container button {
-  padding: 10px 20px; /* Add some padding to buttons */
-  font-size: 16px; /* Font size for buttons */
-  cursor: pointer; /* Change cursor to pointer on hover */
+
+.button {
+  background-color: #007BFF; /* Button color */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Padding for buttons */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make it behave like a button */
 }
 
-/* Hide button container for sections without buttons */
-.ds-tools-cover .button-container,
-.ds-tools-links .button-container {
-  display: flex; /* Show only the relevant buttons */
-}
 
-.ds-tools-foss .button-container,
-.ds-tools-messaging .button-container,
-.ds-tools-shared-docs .button-container,
-.ds-tools-pw-manager .button-container {
-  display: flex; /* Show both buttons */
+.button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
 }
 
 #arrow-back {

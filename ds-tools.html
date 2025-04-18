@@ -11,86 +11,77 @@
 </head>
 <body>
     <div class="container">
-        <section class="ds-tools-cover">
+        <section id="ds-tools-cover">
             <div id="title-laptop">
                 <h1>Digital <span id="security">Security Tools</span></h1>
                 <img id="laptop" src="assets/ds-tools-laptop.png" alt="Glowing Pink Laptop">
             </div>
             <div class="logos">
-                <a href="#ds-tools-messaging"><img id="signal" src="./assets/ds-tools-signal-emblem.png" alt="Signal Logo"></a>
-                <a href="#ds-tools-shared-docs"><img id="cryptpad" src="assets/ds-tools-cryptpad-emblem.png" alt="Cryptpad Logo"></a>
-                <a href="#ds-tools-pw-manager"><img id="keepassxc" src="assets/ds-tools-keepassxc-emblem.png" alt="Keepass XC Logo"></a>
-            </div>
-            <div class="button-container">
-                <button onclick="scrollToNextSection()"><img id="arrow" src="./assets/arrow-5.svg" alt="Arrow"></button>
+                <a href="#ds-tools-messaging"><img id="signal" src="./assets/ds-tools-signal-emblem.png"
+                        alt="Signal Logo"></a>
+                <a href="#ds-tools-shared-docs"><img id="cryptpad" src="assets/ds-tools-cryptpad-emblem.png"
+                        alt="Cryptpad Logo"></a>
+                <a href="#ds-tools-pw-manager"><img id="keepassxc" src="assets/ds-tools-keepassxc-emblem.png"
+                        alt="Keepass XC Logo"></a>
             </div>
         </section>
-        <section class="ds-tools-foss">
+        <section id="ds-tools-foss">
             <h2>A note on <br>Free & Open Source Software (FOSS)</h2>
-            <p>Free and Open Source Software (FOSS) is software that is usually no cost and has a non-proprietary code available for the public to review.</p>
-            <p>Typically commercial software companies do not reveal their code because they view their software as intellectual property and drive up their competition.  Downloading commercial software also assumes trust and goodwill that the company will not add a "backdoor" or a way for that company to access your private information on your device.</p>
-            <p>FOSS counters this by making the code open for the public to review & analyze. Technical knowledge of coding language is needed to review but there are large enough communities of FOSS advocates, cypherpunks, hackers, and ethical developers online to catch suspicious code.</p>
+            <p>Free and Open Source Software (FOSS) is software that is usually no cost and has a non-proprietary code
+                available for the public to review.</p>
+            <p>Typically commercial software companies do not reveal their code because they view their software as
+                intellectual property and drive up their competition. Downloading commercial software also assumes
+                trust and goodwill that the company will not add a "backdoor" or a way for that company to access your
+                private information on your device.</p>
+            <p>FOSS counters this by making the code open for the public to review & analyze. Technical knowledge of
+                coding language is needed to review but there are large enough communities of FOSS advocates,
+                cypherpunks, hackers, and ethical developers online to catch suspicious code.</p>
             <p>FOSS is the gold standard for digital security, and the recommendations below reflect these principles.</p>
             <div class="green-line"></div>
-            <div class="button-container">
-                <button onclick="scrollToPreviousSection()"><img id="arrow-back" src="./assets/arrow-5.svg" alt="Arrow"></button>
-                <button onclick="scrollToNextSection()"><img id="arrow" src="./assets/arrow-5.svg" alt="Arrow"></button>
-            </div>
         </section>
         <section id="ds-tools-messaging">
             <h2>Page 1 Title</h2>
             <p>Your content for page 1 goes here.</p>
             <div class="green-line"></div>
-            <div class="button-container">
-                <button onclick="scrollToPreviousSection()"><img id="arrow-back" src="./assets/arrow-5.svg" alt="Arrow"></button>
-                <button onclick="scrollToNextSection()"><img id="arrow" src="./assets/arrow-5.svg" alt="Arrow"></button>
-            </div>
         </section>
         <section id="ds-tools-shared-docs">
             <h2>Page 2 Title</h2>
             <p>Your content for page 2 goes here.</p>
             <div class="green-line"></div>
-            <div class="button-container">
-                <button onclick="scrollToPreviousSection()"><img id="arrow-back" src="./assets/arrow-5.svg" alt="Arrow"></button>
-                <button onclick="scrollToNextSection()"><img id="arrow" src="./assets/arrow-5.svg" alt="Arrow"></button>
-            </div>
         </section>
         <section id="ds-tools-pw-manager">
             <h2>Page 3 Title</h2>
             <p>Your content for page 3 goes here.</p>
             <div class="green-line"></div>
-            <div class="button-container">
-                <button onclick="scrollToPreviousSection()"><img id="arrow-back" src="./assets/arrow-5.svg" alt="Arrow"></button>
-                <button onclick="scrollToNextSection()"><img id="arrow" src="./assets/arrow-5.svg" alt="Arrow"></button>
-            </div>
         </section>
         <section class="ds-tools-links">
             <h2>Links Page Title</h2>
             <p>Your links and additional content go here.</p>
             <div class="green-line"></div>
-            <div class="button-container">
-                <button onclick="scrollToPreviousSection()"><img id="arrow-back" src="./assets/arrow-5.svg" alt="Arrow"></button>
-            </div>
         </section>
+        <div class="button-container">
+            <a href=".ds-tools-cover" class="button"><img id="arrow-back" src="./assets/arrow-5.svg" alt="Arrow"></button>
+            <a href=".ds-tools-foss" class="button"><img id="arrow" src="./assets/arrow-5.svg" alt="Arrow"></button>
+        </div>
+
     </div>
     <script>
-        function scrollToNextSection() {
-            const currentSection = document.activeElement.closest('section');
-            const nextSection = currentSection.nextElementSibling;
+        const sections = ['ds-tools-cover', 'ds-tools-foss', 'ds-tools-messaging', 'ds-tools-shared-docs', 'ds-tools-pw-mananager', 'ds-tools-links'];
+        const navigationButtons = document.querySelectorAll('.navigation a');
 
-            if (nextSection) {
-                nextSection.scrollIntoView({ behavior: 'smooth' });
-            }
-        }
+        navigationButtons.forEach((button, index) => {
+            button.addEventListener('click', (event) => {
+                event.preventDefault(); // Prevent default anchor behavior
+                const currentSectionIndex = sections.indexOf(button.getAttribute('href').substring(1));
+                const nextSectionIndex = (index === 0) ? currentSectionIndex - 1 : currentSectionIndex + 1;
 
-        function scrollToPreviousSection() {
-            const currentSection = document.activeElement.closest('section');
-            const previousSection = currentSection.previousElementSibling;
-
-            if (previousSection) {
-                previousSection.scrollIntoView({ behavior: 'smooth' });
-            }
-        }
+                if (nextSectionIndex >= 0 && nextSectionIndex < sections.length) {
+                    const nextSectionId = sections[nextSectionIndex];
+                    document.getElementById(nextSectionId).scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
     </script>
 </body>
+
 </html>

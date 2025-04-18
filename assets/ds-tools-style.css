@@ -97,6 +97,10 @@ h1 {
   z-index: 1;
 }
 
+#security {
+  letter-spacing: -3px;
+}
+
 #laptop {
   position: relative;
   bottom: 70px;

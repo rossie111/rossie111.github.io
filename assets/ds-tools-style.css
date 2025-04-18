@@ -26,6 +26,7 @@
 body {
   font-family: 'Noto Mono';
   /* overflow-x: hidden; Prevent horizontal scroll on body */
+  overflow-y: hidden;
   margin: 0;
   padding: 0;
 }
@@ -35,8 +36,10 @@ body {
   flex-direction: row;
   width: 600%; /* 100% for each section */
   height: 100vh; /* Full viewport height */
-  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-x: visible; /* Enable horizontal scrolling */
   scroll-snap-type: x mandatory; /* Enable snap scrolling */
+  background: url('ds-tools-gradient-background.svg') no-repeat center center; /* Background SVG */
+  background-size: cover;
 }
 
 section {
@@ -48,8 +51,8 @@ section {
   align-items: center;
   justify-content: center;
   position: relative;
-  background: url('ds-tools-gradient-background.svg') no-repeat center center; /* Background SVG */
-  background-size: cover;
+  /* background: url('ds-tools-gradient-background.svg') no-repeat center center; /* Background SVG */
+  /* background-size: cover;  */
 }
 
 #title-laptop {

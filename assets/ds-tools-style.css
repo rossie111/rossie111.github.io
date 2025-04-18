@@ -81,8 +81,13 @@ h1 {
   width: 364px;
   color: rgba(0,0,0,1);
   position: relative;
-  text-shadow: 0px 4px 15px rgba(0, 255, 0, 0.7); /* Green drop shadow */
-  -webkit-text-stroke: .25px #336699; /* Blue stroke outline for WebKit browsers */
+  text-shadow: 
+    -.25px -.25px 0 #336699,  
+    .25px -.25px 0 #336699,
+    -.25px .25px 0 #336699,
+    .25px .25px 0 #336699,
+    0px 4px 15px rgba(0, 255, 0, 0.7); /* Green drop shadow */
+   -webkit-text-stroke: .25px #336699; /*Blue stroke outline for WebKit browsers */
   font-family: 'Noto Mono';
   font-weight: Regular;
   font-size: 74px;

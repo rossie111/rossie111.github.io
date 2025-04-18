@@ -149,6 +149,35 @@ p section {
   font-family: 'Noto Mono';
 }
 
+.button-container {
+  position: fixed; /* Fixes the position of the buttons */
+  bottom: 20px; /* Distance from the bottom of the viewport */
+  left: 50%; /* Center the buttons horizontally */
+  transform: translateX(-50%); /* Adjust for centering */
+  display: flex; /* Use flexbox for layout */
+  gap: 10px; /* Space between buttons */
+  z-index: 1000; /* Ensure buttons are above other content */
+}
+
+.button-container button {
+  padding: 10px 20px; /* Add some padding to buttons */
+  font-size: 16px; /* Font size for buttons */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Hide button container for sections without buttons */
+#section1 .button-container,
+#section6 .button-container {
+  display: flex; /* Show only the relevant buttons */
+}
+
+#section2 .button-container,
+#section3 .button-container,
+#section4 .button-container,
+#section5 .button-container {
+  display: flex; /* Show both buttons */
+}
+
 #arrow-back {
   position: absolute;
   margin-bottom: 20px;

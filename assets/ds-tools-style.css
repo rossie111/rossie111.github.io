@@ -84,6 +84,10 @@ h1 {
   z-index: 1;
 }
 
+.logo {
+  overflow: visible;
+}
+
 .logos img {
   position: relative;
   width: 140px; /* Adjust logo size */

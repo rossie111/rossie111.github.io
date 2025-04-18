@@ -166,15 +166,15 @@ p section {
 }
 
 /* Hide button container for sections without buttons */
-#section1 .button-container,
-#section6 .button-container {
+.ds-tools-cover .button-container,
+.ds-tools-links .button-container {
   display: flex; /* Show only the relevant buttons */
 }
 
-#section2 .button-container,
-#section3 .button-container,
-#section4 .button-container,
-#section5 .button-container {
+.ds-tools-foss .button-container,
+.ds-tools-messaging .button-container,
+.ds-tools-shared-docs .button-container,
+.ds-tools-pw-manager .button-container {
   display: flex; /* Show both buttons */
 }
 

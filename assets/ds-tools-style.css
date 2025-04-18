@@ -7,27 +7,27 @@
 
 @font-face {
   font-family: 'Noto Mono'; /* Choose a name for the font */
-  src: url('/fonts/NotoMono-Regular.ttf') format('truetype'),
+  src: url('fonts/NotoMono-Regular.ttf') format('truetype'),
   /* Add other font formats if needed */
 }
 
 @font-face {
   font-family: 'Neuropolitical'; /* Choose a name for the font */
-  src: url('/fonts/neuropolitical-rg.otf') format('opentype'),
+  src: url('fonts/neuropolitical-rg.otf') format('opentype'),
   /* Add other font formats if needed */
-}
-
-body {
-  font-family: Noto Mono;
-  /* overflow-x: hidden; Prevent horizontal scroll on body */
-  margin: 0;
-  padding: 0;
 }
 
 @font-face {
   font-family: 'Conthrax'; /* Choose a name for the font */
-  src: url('/fonts/conthrax-sb.ttf') format('truetype'),
+  src: url('fonts/conthrax-sb.ttf') format('truetype'),
   /* Add other font formats if needed */
+}
+
+body {
+  font-family: 'Noto Mono';
+  /* overflow-x: hidden; Prevent horizontal scroll on body */
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -64,7 +64,7 @@ h1 {
   color: rgba(0,0,0,1);
   position: relative;
   text-shadow: 0px 4px 15px rgba(0.3137255012989044, 0.8470588326454163, 0.364705890417099, 0.75);
-  font-family: Noto Mono;
+  font-family: 'Noto Mono';
   font-weight: Regular;
   font-size: 74px;
   opacity: 1;
@@ -113,7 +113,7 @@ h2{
 
 p section {
   z-index: 1;
-  font-family: Noto Mono;
+  font-family: 'Noto Mono';
 }
 
 #arrow {

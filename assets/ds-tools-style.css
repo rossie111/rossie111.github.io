@@ -149,45 +149,6 @@ p section {
   font-family: 'Noto Mono';
 }
 
-.navigation {
-  position: fixed; /* Fixed position for buttons */
-  bottom: 20px; /* Distance from the bottom */
-  width: 100%; /* Full width */
-  display: flex; /* Flexbox for alignment */
-  justify-content: space-between; /* Space between buttons */
-  padding: 0 20px; /* Padding on the sides */
-}
-
-
-.button {
-  background-color: #007BFF; /* Button color */
-  color: white; /* Text color */
-  border: none; /* Remove border */
-  padding: 10px 20px; /* Padding for buttons */
-  border-radius: 5px; /* Rounded corners */
-  cursor: pointer; /* Pointer cursor on hover */
-  font-size: 16px; /* Font size */
-  text-decoration: none; /* Remove underline */
-  display: inline-block; /* Make it behave like a button */
-}
-
-
-.button:hover {
-  background-color: #0056b3; /* Darker shade on hover */
-}
-
-#arrow-back {
-  position: absolute;
-  margin-bottom: 20px;
-  bottom:40px;
-  left: 5px;
-  width: 40px; /* Adjust logo size */
-  /* margin: 0 10px; Space between logos */
-  z-index: 1;
-  opacity: 50%;
-  transform: rotate(180deg);
-}
-
 #arrow {
   position: absolute;
   margin-bottom: 20px;

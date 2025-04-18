@@ -51,6 +51,7 @@ section {
   align-items: center;
   justify-content: center;
   position: relative;
+  overflow: visible;
   background-size: contain;
 }
 

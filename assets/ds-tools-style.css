@@ -168,3 +168,17 @@ p section {
   width: 100vw;
   height: 100vh;
 }
+
+h2{
+  width: 378px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 32px;
+  text-shadow: 0px 4px 15px rgba(0.06666667014360428, 0, 1, 0.5);
+  font-family: Neuropolitical;
+  font-weight: Regular;
+  font-size: 30px;
+  opacity: 1;
+  text-align: left; 
+}

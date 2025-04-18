@@ -7,7 +7,13 @@
 
 @font-face {
   font-family: 'Noto Mono'; /* Choose a name for the font */
-  src: url('/fonts/NotoMono-Regular.ttf') format('ttf'),
+  src: url('/fonts/NotoMono-Regular.ttf') format('truetype'),
+  /* Add other font formats if needed */
+}
+
+@font-face {
+  font-family: 'Neuropolitical'; /* Choose a name for the font */
+  src: url('/fonts/neuropolitical-rg.otf') format('opentype'),
   /* Add other font formats if needed */
 }
 
@@ -16,6 +22,12 @@ body {
   /* overflow-x: hidden; Prevent horizontal scroll on body */
   margin: 0;
   padding: 0;
+}
+
+@font-face {
+  font-family: 'Conthrax'; /* Choose a name for the font */
+  src: url('/fonts/conthrax-sb.ttf') format('truetype'),
+  /* Add other font formats if needed */
 }
 
 .container {

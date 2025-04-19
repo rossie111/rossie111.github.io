@@ -156,6 +156,18 @@ p section {
   opacity: 50%;
 }
 
+#arrow-back {
+  position: absolute;
+  margin-bottom: 20px;
+  bottom:40px;
+  left: 5px;
+  width: 40px; /* Adjust logo size */
+  /* margin: 0 10px; Space between logos */
+  z-index: 1;
+  opacity: 50%;
+  transform: rotate(180deg);
+}
+
 .green-line {
   position: absolute;
   bottom: 0;

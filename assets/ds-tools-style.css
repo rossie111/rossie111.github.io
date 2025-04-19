@@ -197,3 +197,17 @@ h2{
   opacity: 1;
   text-align: left; 
 }
+
+#ds-tools-foss .section-text {
+  width: 346px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 134px;
+  left: 32px;
+  font-family: Noto Mono;
+  font-weight: Regular;
+  font-size: 13px;
+  opacity: 1;
+  text-align: left;
+  margin-top: 25px;
+}

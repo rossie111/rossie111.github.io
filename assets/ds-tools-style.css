@@ -196,7 +196,7 @@ h2{
 
 }
 
-#ds-tools-foss {
+#ds-tools-foss .green-line{
   /* background: url('ds-tools-cover-lines-mobile.png');
   background-size: cover;
   background-repeat: no-repeat; */
@@ -209,4 +209,13 @@ background-position: bottom; /*center | right 30px bottom 15px; */
 /* background-origin: border-box | padding-box | content-box; */
 /* background-clip: border-box | padding-box | content-box; */
 /* background-blend-mode: multiply | screen | overlay; */
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%; /* Height of the green line */
+  /* background-color: green; Green line color */
+  /* background: url('ds-tools-Messaging-lines.svg'); */
+  z-index: 0;
 }

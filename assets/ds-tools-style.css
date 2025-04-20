@@ -233,7 +233,14 @@ h2{
 
 /* For Desktop View */
 @media screen and (min-width: 1024px) {
-  
+    #ds-tools-cover .green-line{
+        width: unset;
+    }
+
+    h1 {
+        font-size: 101px;
+        overflow: visible;
+    }
 }
  
 /* For Tablet View */

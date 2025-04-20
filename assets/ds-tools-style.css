@@ -241,6 +241,10 @@ h2{
         font-size: 101px;
         overflow: visible;
     }
+
+    #laptop {
+      left: 235px;
+    }
 }
  
 /* For Tablet View */

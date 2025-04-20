@@ -125,7 +125,7 @@ h1 {
 
 .logos img {
   position: relative;
-  width: 135px; /* Adjust logo size */
+  width: 125px; /* Adjust logo size */
   margin: 0 10px; /* Space between logos */
   z-index: 1;
 }
@@ -134,7 +134,6 @@ h1 {
   position: relative;
   bottom: 80px;
   left: 15px;
-  width: 150px;
 }
 
 .logos #cryptpad {

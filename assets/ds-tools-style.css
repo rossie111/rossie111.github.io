@@ -120,12 +120,11 @@ h1 {
 
 .logos {
   overflow: visible;
-  margin-bottom: 20px;
 }
 
 .logos img {
   position: relative;
-  width: 125px; /* Adjust logo size */
+  width: 115px; /* Adjust logo size */
   margin: 0 10px; /* Space between logos */
   z-index: 1;
 }
@@ -133,18 +132,21 @@ h1 {
 .logos #signal {
   position: relative;
   bottom: 80px;
-  left: 15px;
+  left: 41px;
 }
 
 .logos #cryptpad {
   position: relative;
-  top: 40px;
+  bottom: 1px;
+  left: 65px;
+  width: 105px;
 }
 
 .logos #keepassxc {
   position: relative;
-  bottom: 10px;
-  left: 40px;
+  bottom: 6vh;
+  left: 77px;
+  width: 105px;
 }
 
 p section {

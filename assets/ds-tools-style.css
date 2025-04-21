@@ -282,6 +282,23 @@ h3 {
   margin-top: 25px;
 }
 
+#ds-tools-shared-docs h3 {
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 18vh;
+  left: -31vw;
+  text-shadow: 0px 4px 15px rgba(17, 0, 225, 0.5);
+  font-family: Conthrax;
+  font-weight: Regular;
+  font-size: 1.875rem;
+  opacity: 1;
+  text-align: left; 
+  line-height: 108%;
+  transform: rotate(270deg);
+  margin: 6vw 0 2vw 0;
+  text-transform: uppercase;
+}
+
 .green-line{
   /* background: url('ds-tools-cover-lines-mobile.png');
   background-size: cover;

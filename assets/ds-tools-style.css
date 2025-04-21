@@ -178,6 +178,20 @@ p section {
   transform: rotate(180deg);
 }
 
+.text-container {
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  scroll-snap-align: start; /* Snap to the start of each section */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: visible;
+  background-size: contain;
+  padding:6vh 2vh 0 6vh;
+}
+
 h2{
   width: 378px;
   color: rgba(0,0,0,1);
@@ -239,6 +253,22 @@ h3 {
   text-transform: uppercase;
 }
 
+#ds-tools-messaging h3 {
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 6.25rem;
+  left: -5.25rem;
+  text-shadow: 0px 4px 15px rgba(17, 0, 225, 0.5);
+  font-family: Conthrax;
+  font-weight: Regular;
+  font-size: 1.875rem;
+  opacity: 1;
+  text-align: left; 
+  line-height: 108%;
+  transform: rotate(270deg);
+  margin: 6vw 0 2vw 0;
+  text-transform: uppercase;
+}
 
 #ds-tools-messaging .section-text {
   width: 17.813rem;

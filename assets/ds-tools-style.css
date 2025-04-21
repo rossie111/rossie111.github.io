@@ -197,6 +197,18 @@ h2 div {
   letter-spacing: -.21rem;
 }
 
+.section-text {
+  width: 325px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  font-family: Noto Mono;
+  font-size: 0.69em;
+  opacity: 1;
+  text-align: left;
+  margin-top: 25px;
+  z-index: 1;
+}
+
 #ds-tools-foss .section-text {
   width: 325px;
   color: rgba(0,0,0,1);

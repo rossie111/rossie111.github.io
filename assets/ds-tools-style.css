@@ -299,6 +299,18 @@ h3 {
   text-transform: uppercase;
 }
 
+#ds-tools-shared-docs .section-text {
+  width: 45vh;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: -1vh;
+  left: 8vh;
+  font-size: 1.031em;
+  opacity: 1;
+  text-align: left;
+  margin-top: 25px;
+}
+
 .green-line{
   /* background: url('ds-tools-cover-lines-mobile.png');
   background-size: cover;

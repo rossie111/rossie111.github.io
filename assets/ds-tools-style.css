@@ -181,14 +181,12 @@ p section {
 .text-container {
   width: 100vw; /* Full viewport width */
   height: 100vh; /* Full viewport height */
-  scroll-snap-align: start; /* Snap to the start of each section */
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-evenly;
+/*  position: relative;*/
   overflow: visible;
-  background-size: contain;
   padding:2.89% 4% 42% 1.8%;
   z-index: 1;
 }
@@ -214,6 +212,7 @@ h2 div {
 
 .section-text {
   width: 325px;
+  height: auto;
   color: rgba(0,0,0,1);
   position: absolute;
   font-family: Noto Mono;

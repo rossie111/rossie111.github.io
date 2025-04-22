@@ -214,12 +214,12 @@ h2 div {
   width: 325px;
   height: auto;
   color: rgba(0,0,0,1);
-  position: absolute;
+/*  position: absolute;*/
   font-family: Noto Mono;
   font-size: 0.69em;
   opacity: 1;
   text-align: left;
-  margin-top: 25px;
+/*  margin-top: 25px;*/
   z-index: 1;
 }
 

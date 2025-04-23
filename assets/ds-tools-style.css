@@ -181,12 +181,12 @@ p section {
 .text-container {
   width: 100vw; /* Full viewport width */
   height: 100vh; /* Full viewport height */
-/*  display: flex;*/
-/*  flex-direction: row;*/
-/*  align-items: stretch;*/
-/*  justify-content: space-evenly;*/
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-evenly;
 /*  position: relative;*/
-  overflow: visible;
+/*  overflow: visible;*/
   padding:2.89% 4% 42% 1.8%;
   z-index: 1;
 }

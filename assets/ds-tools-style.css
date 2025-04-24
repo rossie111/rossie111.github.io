@@ -34,11 +34,11 @@ body {
 .container {
   display: flex;
   flex-direction: row;
-  width: 600vw; /* 100% for each section */
+/*  width: 600vw; 100% for each section*/
   height: 100vh; /* Full viewport height */
   overflow-x: clip; 
   scroll-snap-type: x mandatory; /* Enable snap scrolling */
-  background: radial-gradient(30% 100% at top center, #FFFFFF, #B5BEFF);
+/*  background: radial-gradient(30% 100% at top center, #FFFFFF, #B5BEFF);*/
   background-size: cover;
 }
 
@@ -223,6 +223,31 @@ h2 div {
   z-index: 1;
 }
 
+/*SECTION BACKGROUND GRADIENT*/
+#ds-tools-cover {
+  background: #B5BEFF;
+}
+#ds-tools-foss {
+  background:radial-gradient(90% 90% at top right, #dcdffa, #B5BEFF);
+}
+#ds-tools-messaging {
+  background: radial-gradient(200% 80% at top right, #FFF, #B5BEFF);
+}
+#ds-tools-shared-docs {
+  background: radial-gradient(300% 100% at top left, #FFF, #B5BEFF);
+}
+#ds-tools-pw-manager {
+  background: radial-gradient(90% 70% at top left, #FFF, #B5BEFF);
+}
+#ds-tools-pw-manager {
+  background: radial-gradient(90% 70% at top left, #dcdffa, #B5BEFF);
+}
+#ds-tools-links {
+  background: #B5BEFF;
+}
+/*END OF SECTION BACKGROUND GRADIENT*/
+
+
 #ds-tools-foss .section-text {
   width: 325px;
   color: rgba(0,0,0,1);
@@ -278,6 +303,34 @@ h3 {
   /* background: url('ds-tools-Messaging-lines.svg'); */
   z-index: 0;
 }
+
+/*JS BUTTON STUFF*/
+
+section {
+    display: none; /* Hide all sections initially */
+}
+
+section.active {
+    display: block; /* Show the active section */
+}
+
+.navigation {
+    position: fixed;
+    bottom: 20px; /* Position buttons at the bottom */
+    left: 20px; /* Position buttons on the left */
+    right: 20px; /* Position buttons on the right */
+    display: flex;
+    justify-content: space-between; /* Space buttons to the sides */
+}
+
+.nav-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/*END OF JS BUTTON STUFF*/
+
+/*RESPONSIVE SCREENS*/
 
 /* For Desktop View */
 @media screen and (min-width: 1024px) {

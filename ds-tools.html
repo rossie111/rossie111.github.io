@@ -471,9 +471,49 @@
                     <path d="M421.691 909.353C343.742 908.565 265.822 909.411 187.854 909.411C152.525 909.411 117.242 909.518 81.9164 908.249C39.2577 906.722 -3.39722 910.974 -46.0446 909.411C-46.0446 908.034 -46.0446 907.338 -46.0446 905.962C-3.31376 908.041 39.2843 899.271 82.072 902.806C117.378 905.725 152.513 905.954 187.85 905.954C223.186 905.954 258.811 904.162 294.307 903.566C313.478 903.244 332.436 907.553 351.572 908.12C374.935 908.808 398.275 905.431 421.642 905.847C421.661 907.245 421.672 907.948 421.691 909.346V909.353Z" fill="#CCFF99"/>
                     </g>
                 </svg>
-</div>
+            </div>
         </section>
+        <div class="navigation">
+            <button id="prevBtn" class="nav-button" onclick="navigate(-1)">Previous</button>
+            <button id="nextBtn" class="nav-button" onclick="navigate(1)">Next</button>
+        </div>
     </div>
+    <script type="text/javascript">
+        let currentSection = 0; // Start with the first section
+        const sections = document.querySelectorAll('section');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+
+        // Show the first section
+        sections[currentSection].classList.add('active');
+
+        // Function to navigate between sections
+        function navigate(direction) {
+            sections[currentSection].classList.remove('active'); // Hide current section
+            currentSection += direction; // Update current section index
+
+            // Ensure currentSection stays within bounds
+            if (currentSection < 0) {
+                currentSection = 0; // Stay at the first section
+            } else if (currentSection >= sections.length) {
+                currentSection = sections.length - 1; // Stay at the last section
+            }
+
+            sections[currentSection].classList.add('active'); // Show new section
+
+            // Update button visibility
+            updateButtonVisibility();
+        }
+
+        // Function to update button visibility
+        function updateButtonVisibility() {
+            prevBtn.style.display = currentSection === 0 ? 'none' : 'inline-block'; // Hide previous button on first section
+            nextBtn.style.display = currentSection === sections.length - 1 ? 'none' : 'inline-block'; // Hide next button on last section
+        }
+
+        // Initial button visibility setup
+        updateButtonVisibility();
+    </script>
 </body>
 
 </html>

@@ -114,8 +114,8 @@ h1 {
 
 #laptop {
   position: relative;
-  bottom: 70px;
-  left: 170px;
+  bottom: 60px;
+  left: 180px;
   width: 40%; /* Adjust logo size */
   margin: 0 10px; /* Space between logos */
   z-index: 1;

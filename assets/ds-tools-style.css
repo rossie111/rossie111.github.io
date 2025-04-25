@@ -319,9 +319,9 @@ section.active {
 
 .navigation {
     position: fixed;
-    bottom: 20px; /* Position buttons at the bottom */
-    left: 10px; /* Position buttons on the left */
-    right: 10px; /* Position buttons on the right */
+    bottom: 5px; /* Position buttons at the bottom */
+    left: 0px; /* Position buttons on the left */
+    right: 0px; /* Position buttons on the right */
     display: flex;
     justify-content: space-between; /* Space buttons to the sides */
 }

@@ -85,6 +85,7 @@ section {
   left: 48px; 
   padding-left: 7vw;
   padding-top: 10vh;
+  overflow: visible;
 }
 
 h1 {

@@ -319,16 +319,17 @@ section.active {
 .navigation {
     position: fixed;
     bottom: 20px; /* Position buttons at the bottom */
-    left: 20px; /* Position buttons on the left */
-    right: 20px; /* Position buttons on the right */
+    left: 10px; /* Position buttons on the left */
+    right: 10px; /* Position buttons on the right */
     display: flex;
     justify-content: space-between; /* Space buttons to the sides */
 }
 
 .nav-button {
-    padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    background-color: transparent;
+    border: none;
 }
 /*END OF JS BUTTON STUFF*/
 

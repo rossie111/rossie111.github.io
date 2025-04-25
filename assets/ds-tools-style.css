@@ -296,10 +296,12 @@ h3 {
 #ds-tools-links h2 {
   position: unset;
   text-align: center;
+  width: unset;
 }
 
 #ds-tools-links .section-text {
   margin-top: 5vh;
+  position: unset;
 }
 
 .green-line{

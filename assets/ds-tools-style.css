@@ -185,7 +185,7 @@ p section {
   flex-direction: row;
   align-items: stretch;
   justify-content: space-evenly;
-/*  position: relative;*/
+  position: relative;
 /*  overflow: visible;*/
   padding:2.89vh 4vw 25vh 1.8vw;
   z-index: 1;

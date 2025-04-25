@@ -53,6 +53,7 @@ section {
   position: relative;
   overflow: visible;
   background-size: contain;
+  z-index: -2;
 }
 
 #ds-tools-cover .green-line{
@@ -185,7 +186,7 @@ p section {
   flex-direction: row;
   align-items: stretch;
   justify-content: space-evenly;
-  position: relative;
+/*  position: relative;*/
 /*  overflow: visible;*/
   padding:2.89vh 4vw 25vh 1.8vw;
   z-index: 1;
@@ -301,7 +302,7 @@ h3 {
   height: 100%; /* Height of the green line */
   /* background-color: green; Green line color */
   /* background: url('ds-tools-Messaging-lines.svg'); */
-  z-index: 0;
+  z-index: -1;
 }
 
 /*JS BUTTON STUFF*/

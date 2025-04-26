@@ -284,6 +284,13 @@ h3 {
   writing-mode: sideways-lr;
 }
 
+#signal-logo {
+  position: relative;
+  width: 83%;
+  height: auto;
+  bottom: 12vh;
+}
+
 #ds-tools-links .text-container {
   flex-direction: column;
   justify-content: flex-start;

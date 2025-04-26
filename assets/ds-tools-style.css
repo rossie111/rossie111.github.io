@@ -288,24 +288,24 @@ h3 {
   position: relative;
   width: 80%;
   height: auto;
-  bottom: 10.3rem;
-  right: 0.938rem;
+  bottom: 12%;
+  right: 5%;
 }
 
 #cryptpad-logo {
   position: relative;
   width: 80%;
   height: auto;
-  bottom: 7.6rem;
-  right: 0.062rem;
+  bottom: 5%;
+  right: 5%;
 }
 
 #keepassxc-logo {
   position: relative;
   width: 80%;
   height: auto;
-  bottom: 7.9rem;
-  left: 1.4rem;
+  bottom: 8%;
+  left: 7%;
 }
 
 #ds-tools-links .text-container {

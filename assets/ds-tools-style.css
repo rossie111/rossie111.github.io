@@ -51,7 +51,7 @@ section {
   align-items: center;
   justify-content: center;
   position: absolute;
-  overflow: visible;
+/*  overflow: visible;*/
   background-size: contain;
   z-index: -2;
 }
@@ -251,7 +251,7 @@ h2 div {
 /*END OF SECTION BACKGROUND GRADIENT*/
 
 
-#ds-tools-foss .section-text {
+/*#ds-tools-foss .section-text {
   width: 325px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -262,7 +262,7 @@ h2 div {
   text-align: left;
   margin-top: 25px;
 
-}
+}*/
 
 h3 {
   color: rgba(0,0,0,1);

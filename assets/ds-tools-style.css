@@ -291,6 +291,21 @@ h3 {
   bottom: 12vh;
 }
 
+#cryptpad-logo {
+  position: relative;
+  width: 83%;
+  height: auto;
+  bottom: 6vh;
+}
+
+#keepassxc-logo {
+  position: relative;
+  width: 83%;
+  height: auto;
+  bottom: 12vh;
+  left: 5vw;
+}
+
 #ds-tools-links .text-container {
   flex-direction: column;
   justify-content: flex-start;

@@ -182,15 +182,15 @@ p section {
 }
 
 .text-container {
-  width: 100vw; /* Full viewport width */
-  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full viewport width */
+  height: 100%; /* Full viewport height */
   display: flex;
   flex-direction: row;
   align-items: stretch;
   justify-content: space-evenly;
 /*  position: relative;*/
 /*  overflow: visible;*/
-  padding:2.89vh 4vw 10vh 1.8vw;
+  padding:2.89% 4% 10% 1.8%;
   z-index: 1;
 }
 

@@ -257,7 +257,7 @@ h2 div {
   position: absolute;
   top: 109px;
   left: 25px;
-  font-size: 0.69em;
+  font-size: 0.69rem;
   opacity: 1;
   text-align: left;
   margin-top: 25px;
@@ -288,24 +288,24 @@ h3 {
   position: relative;
   width: 80%;
   height: auto;
-  bottom: 10.3em;
-  right: 0.938em;
+  bottom: 10.3rem;
+  right: 0.938rem;
 }
 
 #cryptpad-logo {
   position: relative;
   width: 80%;
   height: auto;
-  bottom: 7.6em;
-  right: 0.062em;
+  bottom: 7.6rem;
+  right: 0.062rem;
 }
 
 #keepassxc-logo {
   position: relative;
   width: 80%;
   height: auto;
-  bottom: 7.9em;
-  left: 1.4em;
+  bottom: 7.9rem;
+  left: 1.4rem;
 }
 
 #ds-tools-links .text-container {

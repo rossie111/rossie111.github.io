@@ -190,7 +190,7 @@ p section {
   justify-content: space-evenly;
 /*  position: relative;*/
 /*  overflow: visible;*/
-  padding:2.89vh 4vw 25vh 1.8vw;
+  padding:2.89vh 4vw 10vh 1.8vw;
   z-index: 1;
 }
 

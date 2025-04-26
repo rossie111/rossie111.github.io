@@ -340,7 +340,7 @@ section.active {
 
 .navigation {
     position: fixed;
-    bottom: 5px; /* Position buttons at the bottom */
+    bottom: -5px; /* Position buttons at the bottom */
     left: 0px; /* Position buttons on the left */
     right: 0px; /* Position buttons on the right */
     display: flex;

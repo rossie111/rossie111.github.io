@@ -335,7 +335,7 @@ section {
 }
 
 section.active {
-    display: block; /* Show the active section */
+    display: flex; /* Show the active section */
 }
 
 .navigation {

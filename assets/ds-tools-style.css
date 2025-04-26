@@ -286,24 +286,26 @@ h3 {
 
 #signal-logo {
   position: relative;
-  width: 83%;
+  width: 80%;
   height: auto;
-  bottom: 12vh;
+  bottom: 10.3em;
+  right: 0.938em;
 }
 
 #cryptpad-logo {
   position: relative;
-  width: 83%;
+  width: 80%;
   height: auto;
-  bottom: 6vh;
+  bottom: 7.6em;
+  right: 0.062em;
 }
 
 #keepassxc-logo {
   position: relative;
-  width: 83%;
+  width: 80%;
   height: auto;
-  bottom: 12vh;
-  left: 5vw;
+  bottom: 7.9em;
+  left: 1.4em;
 }
 
 #ds-tools-links .text-container {

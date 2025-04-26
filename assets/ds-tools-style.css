@@ -44,7 +44,7 @@ body {
 
 section {
   width: 100vw; /* Full viewport width */
-  height: 100vh; /* Full viewport height */
+  height: 100%; /* Full viewport height */
   scroll-snap-align: start; /* Snap to the start of each section */
   display: flex;
   flex-direction: column;

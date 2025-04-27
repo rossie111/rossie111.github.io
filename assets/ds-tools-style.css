@@ -194,6 +194,16 @@ p section {
   z-index: 1;
 }
 
+#ds-tools-foss .text-container{
+  flex-direction: column;
+  justify-content: flex-start;
+  padding:2.89% 4% 10% 4%;
+}
+
+#ds-tools-foss .section-text {
+  margin-top: 5%;
+}
+
 h2{
 /*  width: 378px;*/
   color: rgba(0,0,0,1);

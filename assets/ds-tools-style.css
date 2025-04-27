@@ -229,7 +229,7 @@ h2 div {
   color: rgba(0,0,0,1);
 /*  position: absolute;*/
   font-family: Noto Mono;
-  font-size: .77rem;
+  font-size: .71rem;
   opacity: 1;
   text-align: left;
 /*  margin-top: 25px;*/
@@ -293,6 +293,8 @@ h3 {
   overflow: visible;
   writing-mode: sideways-lr;
 }
+
+
 
 #signal-logo {
   position: relative;

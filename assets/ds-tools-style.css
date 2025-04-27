@@ -306,6 +306,10 @@ h3 {
   right: 5%;
 }
 
+#ds-tools-shared-docs .section-text{
+  font-size: 1rem;
+}
+
 #cryptpad-logo {
   position: relative;
   width: 80%;

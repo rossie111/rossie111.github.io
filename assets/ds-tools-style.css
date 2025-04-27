@@ -318,6 +318,10 @@ h3 {
   right: 7%;
 }
 
+#ds-tools-pw-manager .section-text{
+  font-size: .8rem;
+}
+
 #keepassxc-logo {
   position: relative;
   width: 80%;

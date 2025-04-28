@@ -352,6 +352,7 @@ h3 {
 
 #ds-tools-links .section-text {
   margin-top: 5vh;
+  margin-left: 5vw;
   position: unset;
   line-height: 200%;
   font-size: .8rem;

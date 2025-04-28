@@ -69,7 +69,7 @@ section {
   /* background-origin: border-box | padding-box | content-box; */
   /* background-clip: border-box | padding-box | content-box; */
   /* background-blend-mode: multiply | screen | overlay; */
-  position: absolute;
+/*  position: absolute;*/
   bottom: 0;
   left: 0;
   width: 100%;

@@ -236,6 +236,7 @@ h2 div {
   z-index: 1;
 }
 
+
 /*SECTION BACKGROUND GRADIENT*/
 #ds-tools-cover {
   background: #B5BEFF;
@@ -292,6 +293,9 @@ h3 {
   text-transform: uppercase;
   overflow: visible;
   writing-mode: sideways-lr;
+  -ms-writing-mode: sideways-lr;
+  -webkit-writing-mode: sideways-lr;
+  -moz-writing-mode: sideways-lr;
 }
 
 #ds-tools-messaging aside {

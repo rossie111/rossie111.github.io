@@ -727,6 +727,60 @@ and (-webkit-min-device-pixel-ratio: 3) {
 
 }
 
+/*Extra large devices (large laptops and desktops, 1200px and up)*/
+@media only screen and (min-width: 1200px) {
+  #laptop {
+    margin: 0px 70px;
+    bottom: -25%;
+    left: unset;
+    scale: 1.5;
+  }
+
+  #title-laptop {
+    display: flex;
+    padding: 10% 4% 10% 10%;
+    align-items: center;
+  }
+
+  #ds-tools-links .text-container {
+    padding: 4% 15% 1.8%;
+  }
+
+  .section-text {
+    column-count: 2;
+  }
+
+  #ds-tools-foss .section-text {
+    font-size: .9rem;
+  }
+
+  #ds-tools-messaging .section-text {
+    font-size: 1rem;
+  }
+
+  #ds-tools-shared-docs .section-text {
+    font-size: 1.45rem;
+  }
+
+  #cryptpad-logo {
+    /* width: 43%; */
+    /* height: 100%; */
+    bottom: 0%;
+    left: 0%;
+    scale: .6;
+  }
+
+  #ds-tools-pw-manager .section-text {
+    font-size: 1.16rem;
+  }
+
+  #ds-tools-links .section-text {
+    font-size: 1.2rem;
+    column-count: unset;
+  }
+
+
+}
 
 /* Medium devices (landscape tablets, 768px and up)
 @media only screen and (min-width: 768px) {...}
@@ -734,5 +788,3 @@ and (-webkit-min-device-pixel-ratio: 3) {
 /* Large devices (laptops/desktops, 992px and up) 
 @media only screen and (min-width: 992px) {...}
 
-/* Extra large devices (large laptops and desktops, 1200px and up)
-@media only screen and (min-width: 1200px) {...} */

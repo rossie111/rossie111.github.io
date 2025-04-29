@@ -509,18 +509,12 @@ section.active {
     font-size: 3.4rem;
   }
 
-  .section-text {
-    font-size: 1.17rem;
-  }
-
-
   #ds-tools-foss .text-container {
     padding: 2.89% 15% 10%;
   }
 
-
   #ds-tools-foss .section-text {
-    column-count: 3;
+    font-size: 1.07rem;
   }
 
   h3 {

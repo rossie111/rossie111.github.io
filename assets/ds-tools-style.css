@@ -529,11 +529,13 @@ section.active {
   }
 
   #ds-tools-messaging .section-text {
-  font-size: 1.237rem;
+  font-size: 1.14rem;
   }
 
   #signal-logo {
-    width: 50%;
+    width: 37%;
+    bottom: 14%;
+    right: 15%;
   }
 
   #ds-tools-shared-docs .section-text {

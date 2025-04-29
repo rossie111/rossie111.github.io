@@ -81,15 +81,21 @@ section {
 
 #title-laptop {
   position: static;
-  top: 30%;
-  left: 48px; 
-  padding-left: 7vw;
-  padding-top: 10vh;
+  position: relative;
+  /* top: 30%; */
+  /* left: 48px; */
+  /* padding-left: 7vw; */
+  /* padding-top: 10vh; */
   overflow: visible;
+  /* display: flex; */
+  padding: 20% 4% 10% 10%;
+  /* flex-direction: row; */
+  /* align-items: flex-end; */
+  /* justify-content: end; */
 }
 
 h1 {
-  width: 364px;
+/*  width: 364px;*/
   color: rgba(0,0,0,1);
   position: relative;
   text-shadow: 
@@ -114,11 +120,13 @@ h1 {
 
 #laptop {
   position: relative;
-  bottom: 60px;
-  left: 180px;
-  width: 40%; /* Adjust logo size */
+  /* bottom: 2.75rem; */
+  /* left: 180px; */
+  width: 44%; /* Adjust logo size */
   margin: 0 10px; /* Space between logos */
   z-index: 1;
+  float: right;
+  scale: 1.3;
 }
 
 .logos {
@@ -431,20 +439,23 @@ section.active {
   }
 
   #title-laptop {
-    position: unset;
+    position: relative;
     top: none;
     left: none;
 /*    padding-left: 0%;*/
 /*    padding-top: 15%;*/
     height: 65%;
-    display: flex;
+    /* display: flex; */
+    padding: 10% 4% 10% 10%;
   }
 
   #laptop {
-    bottom: -33%;
-    left: 0%;
+    bottom: 33%;
+    left: 20%;
     width: 70%;
     height: 70%;
+    float: right;
+    scale: .75;
   }
 
   .logos {
@@ -561,21 +572,30 @@ section.active {
 @media screen and (min-device-width: 768px)
 and (max-device-width: 1024px) {
   h1 {
-    font-size: 7.625rem;
+    font-size: 8rem;
+    /* left: -2%; */
   }
 
   #title-laptop {
-    top: 0;
-    left: -10%;
-    padding-left: 0%;
-    padding-top: 15%;
-    height: 65%;
+     /* top: 0; */
+    left: -3%;
+    /* padding-left: 11%; */
+    /* padding-top: 15%; */
+    height: 70%;
+    padding: 15% 4% 10% 10%;
+    /* text-align: center; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: unset; */
   }
 
   #laptop {
-    bottom: 15%;
-    left: 47%;
-    width: 70%;
+    bottom: 12rem;
+    left: 10rem;
+    width: 33.125rem;
+    height: 25.938rem;
+    float: right;
+    scale: .6;
   }
 
   .logos {
@@ -587,9 +607,9 @@ and (max-device-width: 1024px) {
   }
 
   .logos img {
-    position: unset;
-    width: unset;
-    margin: unset;
+    padding-bottom: 175px;
+    scale: .85;
+    z-index: 1;
   }
 
   .logos #signal {

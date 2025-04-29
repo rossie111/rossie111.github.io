@@ -283,6 +283,7 @@ h2 div {
   width: 100%;
   height: 100%;
   padding: 0% 3%;
+  overflow: visible;
 }
 
 h3 {
@@ -523,6 +524,10 @@ and (max-device-width: 1024px) {
   h3 {
     font-size: 3.875rem;
   }
+
+  #ds-tools-messaging .section-text {
+  font-size: 1.237rem;
+}
 
 }
  

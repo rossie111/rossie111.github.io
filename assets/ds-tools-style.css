@@ -441,10 +441,10 @@ section.active {
   }
 
   #laptop {
-        bottom: -33%;
-        left: 0%;
-        width: 70%;
-        height: 70%;
+    bottom: -33%;
+    left: 0%;
+    width: 70%;
+    height: 70%;
   }
 
   .logos {
@@ -502,7 +502,7 @@ section.active {
   }
 
   .text-container {
-    padding: 4% 10% 1.8%;
+    padding: 4% 15% 1.8%;
   }
 
   h2 {
@@ -524,7 +524,8 @@ section.active {
   }
 
   h3 {
-    font-size: 3.35rem;
+    font-size: 2.9rem;
+    padding-right: 5%;
   }
 
   #ds-tools-messaging .section-text {
@@ -544,7 +545,13 @@ section.active {
   }
 
   #ds-tools-pw-manager .section-text {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+  }
+
+
+  #keepassxc-logo {
+    width: 48%;
+    bottom: 4%;
   }
 
   #ds-tools-links .section-text {

@@ -502,6 +502,14 @@ and (max-device-width: 1024px) {
     width: 100%;
   }
 
+  h2 {
+    font-size: 3.4rem;
+  }
+
+  .section-text {
+    font-size: 1.17rem;
+  }
+
 }
  
 /* For Mobile Portrait View */

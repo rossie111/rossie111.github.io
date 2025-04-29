@@ -520,6 +520,10 @@ and (max-device-width: 1024px) {
     font-size: 1.17rem;
   }
 
+  h3 {
+    font-size: 3.875rem;
+  }
+
 }
  
 /* For Mobile Portrait View */

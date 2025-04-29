@@ -537,11 +537,13 @@ section.active {
   }
 
   #ds-tools-shared-docs .section-text {
-    font-size: 1.75rem;
+    font-size: 1.55rem;
   }
 
   #cryptpad-logo {
     width: 55%;
+    bottom: 0%;
+    left: 0%;
   }
 
   #ds-tools-pw-manager .section-text {

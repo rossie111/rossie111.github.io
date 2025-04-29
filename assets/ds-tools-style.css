@@ -280,6 +280,7 @@ h2 div {
   -ms-writing-mode: sideways-lr;
   -webkit-writing-mode: sideways-lr;
   -moz-writing-mode: sideways-lr;
+  width: -webkit-fill-available;
 }
 
 h3 {

@@ -412,24 +412,96 @@ section.active {
 
 /* For Desktop View */
 @media screen and (min-width: 1024px) {
-    #ds-tools-cover .green-line{
-        width: unset;
-    }
+  #ds-tools-cover .green-line{
+      width: unset;
+  }
 
-    h1 {
-        font-size: 101px;
-        overflow: visible;
-    }
+  h1 {
+      font-size: 101px;
+      overflow: visible;
+  }
 
-    #laptop {
-      left: 235px;
-    }
+  #laptop {
+    left: 235px;
+  }
 }
  
 /* For Tablet View */
 @media screen and (min-device-width: 768px)
 and (max-device-width: 1024px) {
-  
+  h1 {
+    font-size: 7.625rem;
+  }
+
+  #title-laptop {
+    position: unset;
+    top: none;
+    left: none;
+    padding-left: 0%;
+    padding-top: 15%;
+    height: 65%;
+  }
+
+  #laptop {
+    bottom: 15%;
+    left: 47%;
+    width: 70%;
+  }
+
+  .logos {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    height: 25%;
+    justify-content: space-evenly;
+  }
+
+  .logos img {
+    position: unset;
+    width: unset;
+    margin: unset;
+  }
+
+  .logos #signal {
+    bottom: unset;
+    left: unset;
+  }
+
+  .logos #cryptpad {
+    bottom: unset;
+    left: unset;
+    width: unset;
+  }
+
+  .logos #keepassxc {
+    bottom: unset;
+    left: unset;
+    width: unset;
+  }
+
+  section {
+    justify-content: flex-start;
+  }
+
+  .navigation {
+    bottom: 0px;
+    height: 10%;
+  }
+
+  .nav-button {
+    font-size: unset;
+    margin: unset;
+    width: 15%;
+  }
+
+  .logos > a:nth-child(1) {
+    width: unset;
+  }
+
+  button img {
+    width: 100%;
+  }
+
 }
  
 /* For Mobile Portrait View */

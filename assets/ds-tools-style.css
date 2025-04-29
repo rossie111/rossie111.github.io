@@ -441,14 +441,14 @@ section.active {
   }
 
   #laptop {
-    bottom: -10%;
-/*    left: 47%;*/
-    width: 70%;
-    height: 70%;
+        bottom: -33%;
+        left: 0%;
+        width: 70%;
+        height: 70%;
   }
 
   .logos {
-    width: 46%;
+    width: 65%;
     align-items: center;
     display: flex;
     height: 25%;
@@ -537,6 +537,10 @@ section.active {
 
   #ds-tools-shared-docs .section-text {
     font-size: 1.75rem;
+  }
+
+  #cryptpad-logo {
+    width: 55%;
   }
 
   #ds-tools-pw-manager .section-text {

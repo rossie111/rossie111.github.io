@@ -501,6 +501,10 @@ section.active {
     width: 60%;
   }
 
+  .text-container {
+    padding: 4% 10% 1.8%;
+  }
+
   h2 {
     font-size: 3.4rem;
   }
@@ -525,6 +529,10 @@ section.active {
 
   #ds-tools-messaging .section-text {
   font-size: 1.237rem;
+  }
+
+  #signal-logo {
+    width: 50%;
   }
 
   #ds-tools-shared-docs .section-text {

@@ -526,6 +526,9 @@ and (max-device-width: 1024px) {
 
   #ds-tools-messaging .section-text {
   font-size: 1.237rem;
+
+  #ds-tools-shared-docs .section-text {
+    font-size: 1.75rem;
 }
 
 }

@@ -274,6 +274,13 @@ h2 div {
   margin-top: 25px;
 
 }*/
+  
+.sideways-lr {
+  writing-mode: sideways-lr;
+  -ms-writing-mode: sideways-lr;
+  -webkit-writing-mode: sideways-lr;
+  -moz-writing-mode: sideways-lr;
+}
 
 h3 {
   color: rgba(0,0,0,1);

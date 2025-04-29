@@ -427,12 +427,106 @@ section.active {
   }
 
   h1 {
-      font-size: 101px;
-      overflow: visible;
+    font-size: 7.625rem;
+  }
+
+  #title-laptop {
+    position: unset;
+    top: none;
+    left: none;
+/*    padding-left: 0%;*/
+/*    padding-top: 15%;*/
+    height: 65%;
+    display: flex;
   }
 
   #laptop {
-    left: 235px;
+    bottom: -10%;
+/*    left: 47%;*/
+    width: 70%;
+    height: 70%;
+  }
+
+  .logos {
+    width: 46%;
+    align-items: center;
+    display: flex;
+    height: 25%;
+    justify-content: space-evenly;
+  }
+
+  .logos img {
+    position: unset;
+    width: unset;
+    margin: unset;
+  }
+
+  .logos #signal {
+    bottom: unset;
+    left: unset;
+  }
+
+  .logos #cryptpad {
+    bottom: unset;
+    left: unset;
+    width: unset;
+  }
+
+  .logos #keepassxc {
+    bottom: unset;
+    left: unset;
+    width: unset;
+  }
+
+  section {
+    justify-content: flex-start;
+  }
+
+  .navigation {
+    bottom: 0px;
+    height: 20%;
+  }
+
+  .nav-button {
+    font-size: unset;
+    margin: unset;
+    width: 15%;
+  }
+
+  .logos > a:nth-child(1) {
+    width: unset;
+  }
+
+  button img {
+    width: 60%;
+  }
+
+  h2 {
+    font-size: 3.4rem;
+  }
+
+  .section-text {
+    font-size: 1.17rem;
+  }
+
+  h3 {
+    font-size: 3.35rem;
+  }
+
+  #ds-tools-messaging .section-text {
+  font-size: 1.237rem;
+  }
+
+  #ds-tools-shared-docs .section-text {
+    font-size: 1.75rem;
+  }
+
+  #ds-tools-pw-manager .section-text {
+    font-size: 1.4rem;
+  }
+
+  #ds-tools-links .section-text {
+    font-size: 1.3rem;
   }
 }
  
@@ -444,9 +538,8 @@ and (max-device-width: 1024px) {
   }
 
   #title-laptop {
-    position: unset;
-    top: none;
-    left: none;
+    top: 0;
+    left: -10%;
     padding-left: 0%;
     padding-top: 15%;
     height: 65%;

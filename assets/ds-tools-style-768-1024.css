@@ -1,0 +1,57 @@
+section {
+  overflow: hidden;
+
+#title-laptop {
+  /* padding: 20% 4% 10% 10%; */
+  padding: 10% 4% 0% 10%;
+
+#laptop {
+  /* /* bottom: 2.75rem; */ */
+  /* /* left: 180px; */ */
+  bottom: 10%;
+  left: -15%;
+
+.logos {
+  /* width: 375px; */
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 15%;
+  scale: .8;
+  z-index: 1;
+
+.logos img {
+  /* width: 115px; */
+  width: auto;
+  /* margin: 0 10px; */
+  margin: 0 25px;
+
+.logos #signal {
+  /* position: relative; */
+  /* bottom: 80px; */
+  /* left: 41px; */
+  /* position: relative; */
+  /* bottom: 80px; */
+  /* left: 41px; */
+
+.logos #cryptpad {
+  /* position: relative; */
+  /* bottom: 1px; */
+  /* left: 65px; */
+  /* width: 105px; */
+  /* position: relative; */
+  /* bottom: 1px; */
+  /* left: 65px; */
+  /* width: 105px; */
+
+.logos #keepassxc {
+  /* position: relative; */
+  /* bottom: 6vh; */
+  /* left: 77px; */
+  /* width: 105px; */
+  /* position: relative; */
+  /* bottom: 6vh; */
+  /* left: 77px; */
+  /* width: 100%; */
+}

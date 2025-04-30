@@ -37,7 +37,7 @@ body {
 /*  width: 600vw; 100% for each section*/
   height: 100%; /* Full viewport height */
   overflow-x: clip; 
-  scroll-snap-type: x mandatory; /* Enable snap scrolling */
+/*  scroll-snap-type: x mandatory; Enable snap scrolling*/
 /*  background: radial-gradient(30% 100% at top center, #FFFFFF, #B5BEFF);*/
   background-size: cover;
 }
@@ -45,7 +45,7 @@ body {
 section {
   width: 100%; /* Full viewport width */
   height: 100%; /* Full viewport height */
-  scroll-snap-align: start; /* Snap to the start of each section */
+/*  scroll-snap-align: start; Snap to the start of each section*/
   display: flex;
   flex-direction: column;
   align-items: center;

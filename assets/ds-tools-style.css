@@ -120,7 +120,7 @@ h1 {
 
 #laptop {
   position: relative;
-  /* bottom: 2.75rem; */
+  bottom: 2.75rem; 
   /* left: 180px; */
   width: 44%; /* Adjust logo size */
   margin: 0 10px; /* Space between logos */

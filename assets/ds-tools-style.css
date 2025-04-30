@@ -248,6 +248,7 @@ h2 div {
   text-align: left;
 /*  margin-top: 25px;*/
   z-index: 1;
+  overflow: auto;
 }
 
 

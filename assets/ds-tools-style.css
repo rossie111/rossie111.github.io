@@ -51,7 +51,7 @@ section {
   align-items: center;
   justify-content: center;
   position: absolute;
-/*  overflow: visible;*/
+  overflow: clip;
   background-size: contain;
   z-index: -2;
 }

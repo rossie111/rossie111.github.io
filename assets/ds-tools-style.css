@@ -428,146 +428,50 @@ section.active {
 
 /*RESPONSIVE SCREENS*/
 
-/* For Desktop View */
-@media screen and (min-width: 1024px) {
-  #ds-tools-cover .green-line{
-      width: unset;
-  }
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
 
-  h1 {
-    font-size: 7.625rem;
-  }
-
-  #title-laptop {
-    position: relative;
-    top: none;
-    left: none;
-/*    padding-left: 0%;*/
-/*    padding-top: 15%;*/
-    height: 65%;
-    /* display: flex; */
-    padding: 10% 4% 10% 10%;
-  }
-
-  #laptop {
-    bottom: 55%;
-    left: 27%;
-    width: 90%;
-    height: 100%;
-    float: right;
-    scale: .75;
-  }
-
-  .logos {
-    width: 65%;
-    align-items: center;
-    display: flex;
-    height: 25%;
-    justify-content: space-evenly;
-  }
-
-  .logos img {
-    position: unset;
-    width: unset;
-    margin: unset;
-  }
-
-  .logos #signal {
-    bottom: unset;
-    left: unset;
-  }
-
-  .logos #cryptpad {
-    bottom: unset;
-    left: unset;
-    width: unset;
-  }
-
-  .logos #keepassxc {
-    bottom: unset;
-    left: unset;
-    width: unset;
-  }
-
-  section {
-    justify-content: flex-start;
-  }
-
-  .navigation {
-    bottom: 0px;
-    height: 20%;
-  }
-
-  .nav-button {
-    font-size: unset;
-    margin: unset;
-    width: 15%;
-  }
-
-  .logos > a:nth-child(1) {
-    width: unset;
-  }
-
-  button img {
-    width: 60%;
-  }
-
-  .text-container {
-    padding: 4% 15% 1.8%;
-  }
-
-  h2 {
-    font-size: 3.4rem;
-  }
-
-  #ds-tools-foss .text-container {
-    padding: 2.89% 15% 10%;
-  }
-
-  #ds-tools-foss .section-text {
-    font-size: 1.07rem;
-  }
-
-  h3 {
-    font-size: 2.9rem;
-    padding-right: 5%;
-  }
-
-  #ds-tools-messaging .section-text {
-  font-size: 1.14rem;
-  }
-
-  #signal-logo {
-    width: 37%;
-    bottom: 14%;
-    right: 15%;
-  }
-
-  #ds-tools-shared-docs .section-text {
-    font-size: 1.55rem;
-  }
-
-  #cryptpad-logo {
-    width: 55%;
-    bottom: 0%;
-    left: 0%;
-  }
-
-  #ds-tools-pw-manager .section-text {
-    font-size: 1.3rem;
-  }
-
-
-  #keepassxc-logo {
-    width: 48%;
-    bottom: 4%;
-  }
-
-  #ds-tools-links .section-text {
-    font-size: 1.3rem;
-  }
 }
  
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px)
+and (orientation: landscape) {
+
+}
+ 
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+
+}
+ 
+/* For iPhone 4 Portrait or Landscape View */
+@media screen and (min-device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+ 
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+ 
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) and (min-device-width: 375px)
+and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+
+@media only screen and (max-width: 480px){ 
+
+}
+
+@media only screen and (max-width: 360px){
+
+}
+
 /* For Tablet View */
 @media screen and (min-device-width: 768px)
 and (max-device-width: 1024px) {
@@ -682,50 +586,158 @@ and (max-device-width: 1024px) {
   }
 
 }
- 
-/* For Mobile Portrait View */
-@media screen and (max-device-width: 480px)
-and (orientation: portrait) {
 
+/* For Desktop View */
+@media screen and (min-width: 1024px) and (orientation: landscape)  {
+  #ds-tools-cover .green-line{
+      width: unset;
+  }
+
+  h1 {
+    font-size: 7.625rem;
+  }
+
+  #title-laptop {
+    position: relative;
+    top: unset;
+    padding-left: unset;
+    padding-top: unset;
+    height: 65%;
+    padding: 5% 4% 0% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: unset;
+    width: 100%;
+  }
+
+  #laptop {
+    bottom: 55%;
+    left: 27%;
+    float: right;
+    scale: .75;
+    position: unset;
+    width: 100%;
+    height: 60%;
+    scale: 1;
+  }
+
+  .logos {
+    width: 80%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    scale: .8;
+    z-index: 1;
+    height: unset;
+  }
+
+  .logos img {
+    position: unset;
+    width: unset;
+    margin: unset;
+  }
+
+  .logos #signal {
+    bottom: unset;
+    left: unset;
+  }
+
+  .logos #cryptpad {
+    bottom: unset;
+    left: unset;
+    width: unset;
+  }
+
+  .logos #keepassxc {
+    bottom: unset;
+    left: unset;
+    width: unset;
+  }
+
+  section {
+    justify-content: flex-start;
+  }
+
+  .navigation {
+    bottom: 0px;
+    height: 15%;
+  }
+
+  .nav-button {
+    font-size: unset;
+    margin: unset;
+    width: 9%;
+  }
+
+  .logos > a:nth-child(1) {
+    width: unset;
+  }
+
+  button img {
+    width: 60%;
+  }
+
+  .text-container {
+    padding: 4% 15% 1.8%;
+  }
+
+  h2 {
+    font-size: 3.4rem;
+  }
+
+  #ds-tools-foss .text-container {
+    padding: 2.89% 15% 10%;
+  }
+
+  .section-text {
+    overflow-y: auto;
+  }
+
+  #ds-tools-foss .section-text {
+    font-size: .85rem;
+  }
+
+  h3 {
+    font-size: 2.9rem;
+    padding-right: 5%;
+  }
+
+  #ds-tools-messaging .section-text {
+  font-size: 1.85vh;
+  }
+
+  #signal-logo {
+    width: 37%;
+    bottom: 14%;
+    right: 15%;
+  }
+
+  #ds-tools-shared-docs .section-text {
+    font-size: 2.5vh;
+  }
+
+  #cryptpad-logo {
+    width: 55%;
+    bottom: 0%;
+    left: 0%;
+  }
+
+  #ds-tools-pw-manager .section-text {
+    font-size: 2.3vh;
+  }
+
+
+  #keepassxc-logo {
+    width: 48%;
+    bottom: 4%;
+  }
+
+  #ds-tools-links .section-text {
+    font-size: 2vh;
+  }
 }
- 
-/* For Mobile Landscape View */
-@media screen and (max-device-width: 640px)
-and (orientation: landscape) {
 
-}
- 
-/* For Mobile Phones Portrait or Landscape View */
-@media screen and (max-device-width: 640px) {
-
-}
- 
-/* For iPhone 4 Portrait or Landscape View */
-@media screen and (min-device-width: 320px)
-and (-webkit-min-device-pixel-ratio: 2) {
-
-}
- 
-/* For iPhone 5 Portrait or Landscape View */
-@media (device-height: 568px) and (device-width: 320px)
-and (-webkit-min-device-pixel-ratio: 2) {
-
-}
- 
-/* For iPhone 6 and 6 plus Portrait or Landscape View */
-@media (min-device-height: 667px) and (min-device-width: 375px)
-and (-webkit-min-device-pixel-ratio: 3) {
-
-}
-
-
-@media only screen and (max-width: 480px){ 
-
-}
-
-@media only screen and (max-width: 360px){
-
-}
 
 /*Extra large devices (large laptops and desktops, 1200px and up)*/
 @media only screen and (min-width: 1200px) {
@@ -763,8 +775,8 @@ and (-webkit-min-device-pixel-ratio: 3) {
   }
 
   #cryptpad-logo {
-    /* width: 43%; */
-    /* height: 100%; */
+    width: unset;
+    height: unset;
     bottom: 0%;
     left: 0%;
     scale: .6;
@@ -778,8 +790,147 @@ and (-webkit-min-device-pixel-ratio: 3) {
     font-size: 1.2rem;
     column-count: unset;
   }
+}
+
+/* For Desktop View */
+@media screen and (min-width: 1440px) {
+  #ds-tools-cover .green-line{
+        width: unset;
+    }
+
+    h1 {
+      font-size: 7.625rem;
+    }
+
+    #title-laptop {
+      position: relative;
+      top: none;
+      left: none;
+  /*    padding-left: 0%;*/
+  /*    padding-top: 15%;*/
+      height: 65%;
+      /* display: flex; */
+      padding: 10% 4% 10% 10%;
+    }
+
+    #laptop {
+      bottom: 55%;
+      left: 27%;
+      width: 90%;
+      height: 100%;
+      float: right;
+      scale: .75;
+    }
+
+    .logos {
+      width: 65%;
+      align-items: center;
+      display: flex;
+      height: 25%;
+      justify-content: space-evenly;
+    }
+
+    .logos img {
+      position: unset;
+      width: unset;
+      margin: unset;
+    }
+
+    .logos #signal {
+      bottom: unset;
+      left: unset;
+    }
+
+    .logos #cryptpad {
+      bottom: unset;
+      left: unset;
+      width: unset;
+    }
+
+    .logos #keepassxc {
+      bottom: unset;
+      left: unset;
+      width: unset;
+    }
+
+    section {
+      justify-content: flex-start;
+    }
+
+    .navigation {
+      bottom: 0px;
+      height: 20%;
+    }
+
+    .nav-button {
+      font-size: unset;
+      margin: unset;
+      width: 15%;
+    }
+
+    .logos > a:nth-child(1) {
+      width: unset;
+    }
+
+    button img {
+      width: 60%;
+    }
+
+    .text-container {
+      padding: 4% 15% 1.8%;
+    }
+
+    h2 {
+      font-size: 3.4rem;
+    }
+
+    #ds-tools-foss .text-container {
+      padding: 2.89% 15% 10%;
+    }
+
+    #ds-tools-foss .section-text {
+      font-size: 1.07rem;
+    }
+
+    h3 {
+      font-size: 2.9rem;
+      padding-right: 5%;
+    }
+
+    #ds-tools-messaging .section-text {
+    font-size: 1.14rem;
+    }
+
+    #signal-logo {
+      width: 37%;
+      bottom: 14%;
+      right: 15%;
+    }
+
+    #ds-tools-shared-docs .section-text {
+      font-size: 1.55rem;
+    }
+
+    #cryptpad-logo {
+      width: 55%;
+      bottom: 0%;
+      left: 0%;
+    }
+
+    #ds-tools-pw-manager .section-text {
+      font-size: 1.3rem;
+    }
 
 
+    #keepassxc-logo {
+      width: 48%;
+      bottom: 4%;
+    }
+
+    #ds-tools-links .section-text {
+      font-size: 1.3rem;
+    }
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up)

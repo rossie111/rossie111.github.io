@@ -127,6 +127,7 @@ h1 {
   z-index: 1;
   float: right;
   scale: 1.3;
+  overflow: visible;
 }
 
 #laptop img {
@@ -588,6 +589,141 @@ and (max-device-width: 1024px) {
 
   #ds-tools-links .section-text {
     font-size: 1.3rem;
+  }
+
+}
+
+/* For Tablet Landscape & Laptop View */
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) and (orientation: landscape){
+  h1 {
+    font-size: 8rem;
+    /* left: -2%; */
+  }
+
+  #title-laptop {
+     /* top: 0; */
+    left: -3%;
+    /* padding-left: 11%; */
+    /* padding-top: 15%; */
+    height: 70%;
+    padding: 15% 4% 10% 10%;
+    /* text-align: center; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: unset; */
+    scale: .8;
+    z-index: 1;
+  }
+
+  #laptop {
+    bottom: 12rem;
+    left: 27%;
+    width: 33.125rem;
+    height: 25.938rem;
+    float: right;
+    scale: .6;
+  }
+
+  .logos {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    height: unset;
+    justify-content: space-evenly;
+    scale: .7;
+    z-index: 1;
+  }
+
+  .logos img {
+    padding-bottom: 175px;
+    scale: .85;
+    z-index: 1;
+    width: unset;
+  }
+
+  .logos #signal {
+    bottom: unset;
+    left: unset;
+  }
+
+  .logos #cryptpad {
+    bottom: unset;
+    left: unset;
+    width: unset;
+  }
+
+  .logos #keepassxc {
+    bottom: unset;
+    left: unset;
+    width: unset;
+  }
+
+  section {
+    justify-content: flex-start;
+  }
+
+  .navigation {
+    bottom: 0px;
+    height: 18%;
+  }
+
+  .nav-button {
+    font-size: unset;
+    margin: unset;
+    width: 15%;
+    scale: .7;
+  }
+
+  .logos > a:nth-child(1) {
+    width: unset;
+  }
+
+  button img {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 6vh;
+  }
+
+  .section-text {
+    font-size: 2.2vh;
+    column-count: 2;
+  }
+
+  h3 {
+    font-size: 4vh;
+  }
+
+  #ds-tools-messaging .section-text {
+    font-size: 2.1vh;
+  }
+
+  #signal-logo {
+    scale: .6;
+  }
+
+  #ds-tools-shared-docs .section-text {
+    font-size: 2.5vh;
+  }
+
+  #cryptpad-logo {
+    bottom: -5%;
+    scale: .7;
+  }
+
+  #ds-tools-pw-manager .section-text {
+    font-size: 2.5vh;
+  }
+
+  #keepassxc-logo {
+    scale: .7;
+  }
+
+  #ds-tools-links .section-text {
+    font-size: 2.5vh;
+    column-count: 1;
   }
 
 }

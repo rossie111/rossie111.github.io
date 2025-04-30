@@ -131,7 +131,7 @@ h1 {
 }
 
 #laptop img {
-  height: max-content;
+  height: 100%;
   width: 100%;
 }
 

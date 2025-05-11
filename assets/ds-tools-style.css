@@ -485,7 +485,7 @@ and (orientation: landscape) {
   #title-laptop {
     position: unset;
     display: flex;
-    padding: 1% 4% 0% 10%;
+    padding: 1% 4% 0% 8%;
   }
 
   #laptop {

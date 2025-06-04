@@ -243,7 +243,7 @@ h2 div {
   color: rgba(0,0,0,1);
 /*  position: absolute;*/
   font-family: Noto Mono;
-  font-size: .68rem;
+  font-size: .66rem;
   opacity: 1;
   text-align: left;
 /*  margin-top: 25px;*/
@@ -485,7 +485,7 @@ and (orientation: landscape) {
   #title-laptop {
     position: unset;
     display: flex;
-    padding: 1% 4% 0% 10%;
+    padding: 1% 4% 0% 8%;
   }
 
   #laptop {
